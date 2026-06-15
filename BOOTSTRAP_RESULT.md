@@ -16,7 +16,7 @@ Local Bootstrap Result:
 LOCAL_BOOTSTRAP_PASS
 
 Remote Git Validation:
-REMOTE_VALIDATION_PENDING
+REMOTE_VALIDATION_PASS
 
 Overall Stage Entry:
 PROBLEM_STAGE_ALLOWED
@@ -76,7 +76,7 @@ Boundary Result:
 PASS
 
 Remote Git Result:
-PENDING_REMOTE_COMMIT_URL
+PASS
 ```
 
 ---
@@ -85,14 +85,14 @@ PENDING_REMOTE_COMMIT_URL
 
 ```text
 Commit URL:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Startup:
 Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit product commit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 ```
 
 File upload is fallback only.
@@ -133,7 +133,7 @@ Current:
 Bootstrap · Codex · AA
 
 Done:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Next:
 Problem · ChatGPT · AA Project · NEW session
@@ -146,10 +146,10 @@ Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit product commit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Audit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Workspace:
 /Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA

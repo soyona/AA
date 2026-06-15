@@ -63,7 +63,7 @@ Current:
 Bootstrap · Codex · AA
 
 Done:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Next:
 Problem · ChatGPT · AA Project · NEW session
@@ -76,7 +76,7 @@ Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Workspace:
 /Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA
@@ -108,7 +108,7 @@ Next Action:
 Create ProblemDefinition_CORE_v1.md
 
 Audit Source:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 ```
 
 ---

@@ -9,7 +9,7 @@ Current:
 Bootstrap · Codex · AA
 
 Done:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Next:
 Problem · ChatGPT · AA Project · NEW session
@@ -22,10 +22,10 @@ Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit product commit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Audit:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 
 Workspace:
 /Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA
@@ -46,7 +46,7 @@ For a new product, create a ChatGPT Project named `AA` and start a NEW session i
 
 ```text
 Commit URL:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 ```
 
 The Commit URL in the Bootstrap Route Card is the only ChatGPT audit target.
@@ -76,7 +76,7 @@ Remote:
 https://github.com/soyona/AA.git
 
 Commit URL:
-PENDING_REMOTE_COMMIT_URL
+https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 ```
 
 ---
