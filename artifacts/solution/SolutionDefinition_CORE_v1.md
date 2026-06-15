@@ -10,7 +10,7 @@
 | Based On | artifacts/problem/ProblemDefinition_CORE_v1.md |
 ---
 # Solution Vision
-帮助一年级学生通过持续参与短时间的识字挑战，建立汉字学习能力和阅读基础，同时降低家长在课后家庭场景中的监督成本。
+帮助一年级学生通过持续发现、理解和掌握汉字，建立识字能力和阅读基础，同时降低家长在课后家庭场景中的监督成本。
 
 解决方向不是让学生在单次学习中投入更长时间，而是让学生更愿意每天回来，持续完成适合其注意力水平和识字阶段的学习参与。
 ---
@@ -50,18 +50,31 @@ Studying longer today
 
 解决方案应适应短时、低压力、可持续的家庭学习节奏。
 ---
+## Principle-5: Mastery Before Repetition
+Students should feel increasing mastery and understanding before being asked to perform repetitive practice.
+
+Understanding should reinforce participation.
+
+Repetition should reinforce mastery.
+
+Repetition should not become the primary source of motivation.
+---
 # Core Strategy
 采用以下策略替代传统学习任务执行：
 
-- Challenge-driven participation
-- Exploration-driven progression
+- Discovery-driven engagement
+- Understanding-driven learning
+- Mastery-driven progression
 - Capability-growth visibility
 
-## Challenge-driven Participation
-通过短挑战降低学生开始学习的心理门槛，使识字练习从被要求完成的任务，转变为学生愿意参与的挑战。
+## Discovery-driven Engagement
+通过发现汉字结构、关系和规律，保护学生已有的学习意愿，使识字学习从被要求完成的任务，转变为学生愿意继续探索的过程。
 ---
-## Exploration-driven Progression
-通过探索式推进保持新鲜感和继续参与的期待，减少课后生字练习中因重复、单调和被动执行造成的中断。
+## Understanding-driven Learning
+通过理解汉字的字形、读音、偏旁部首和组词关系，帮助学生在练习前先建立意义感和掌握感。
+---
+## Mastery-driven Progression
+通过让学生感到自己正在逐步掌握汉字，支持持续参与。进步感应来自理解和掌握，而不是单纯来自挑战完成。
 ---
 ## Capability-growth Visibility
 通过呈现能力成长，让学生获得即时成就感，让家长理解学习正在发生，从而减少对持续监督的依赖。
@@ -89,6 +102,9 @@ Studying longer today
 # Motivation Strategy
 采用：
 
+- Discovery
+- Understanding
+- Mastery
 - Short challenges
 - Immediate feedback
 - Exploration unlocks
@@ -100,17 +116,26 @@ Studying longer today
 - Forced repetition
 - Heavy parent supervision
 
+## Discovery
+发现应成为学生开始和回到学习活动的主要动机，使学生感到自己正在找到汉字中的结构、关系和规律。
+---
+## Understanding
+理解应支撑学生继续参与。当学生知道为什么一个字这样组成、这样读、这样组词时，练习更容易被接受。
+---
+## Mastery
+掌握感应成为持续参与的重要来源。学生应感到自己正在变得更会认、更会读、更会理解和更会使用汉字。
+---
 ## Short Challenges
-短挑战应匹配一年级学生有限的注意力持续时间，降低开始和坚持的难度。
+短挑战应作为低门槛参与形式，服务于发现、理解和掌握，而不是成为主要动机来源。
 ---
 ## Immediate Feedback
-即时反馈应帮助学生感知自己的表现和进步，形成继续参与的动机。
+即时反馈应帮助学生感知自己的理解、掌握和进步，形成继续参与的动机。
 ---
 ## Exploration Unlocks
 探索解锁应提供继续回来的期待，支持长期参与，而不是依靠家长持续催促。
 ---
 ## Growth Visualization
-成长可视化应让学生感到自己正在变强，也让家长看到课后识字练习的持续价值。
+成长可视化应让学生感到自己正在逐步掌握汉字，也让家长看到课后识字学习的持续价值。
 ---
 # Parent Participation Strategy
 家长职责限定为：
@@ -140,6 +165,7 @@ Studying longer today
 5. 阅读基础能力得到支持
 6. 家长提醒和持续监督成本下降
 7. 家庭学习冲突减少
+8. 学生在出错后仍能保持掌握意愿，而不是因重复练习产生更强抵触
 ---
 # Primary Success Metric
 主要成功指标：
@@ -210,7 +236,7 @@ PASS
 ## Consistency With ProblemDefinition_CORE_v1.md
 PASS
 
-本文档与已接受的问题定义保持一致：聚焦一年级学生课后家庭场景中的生字学习持续性不足、练习参与度不足、阅读习惯难以坚持、生字巩固效率不足，以及家长监督成本过高。
+本文档与已接受的问题定义保持一致：聚焦一年级学生课后家庭场景中的生字学习持续性不足、练习参与度不足、阅读习惯难以坚持、生字巩固效率不足、掌握动机与重复练习方式不匹配，以及家长监督成本过高。
 ---
 # Acceptance Decision
 Solution Definition Status:
