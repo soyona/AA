@@ -36,7 +36,36 @@ Create
 # Product Mission
 AA exists to help Yuanyuan build positive literacy experiences through sustained discovery and personal construction of a Chinese character world.
 
-The mission is to support literacy capability growth without making the child feel that after-school character learning is only a required task, repeated exercise, or parent-enforced obligation.
+The mission is to use Chinese character learning as a growth training ground, supporting both literacy capability and broader growth qualities without making the child feel that after-school character learning is only a required task, repeated exercise, or parent-enforced obligation.
+---
+# Product Purpose
+Chinese characters are the training ground.
+
+Growth is the ultimate objective.
+
+AA uses literacy growth as the visible path through which Yuanyuan can practice deeper growth qualities.
+
+## Visible Goal
+```text
+Literacy Growth
+```
+
+Visible progress includes stronger character recognition, better understanding of character structures, improved sense of character relationships, and growing confidence with Chinese characters.
+---
+## Hidden Goal
+```text
+Growth Qualities
+```
+
+The deeper purpose is to help Yuanyuan develop:
+
+- Emotional Regulation
+- Persistence
+- Focus
+- Courage To Face Difficulty
+- Growth Mindset
+
+Literacy improvement remains important, but it is not the final purpose.
 ---
 # Product Vision
 AA should become Yuanyuan's personal character world: a place where Chinese characters are not isolated items to memorize, but discoverable, connected, and meaningful building materials.
@@ -48,6 +77,7 @@ The long-term product vision is to help Yuanyuan:
 - Build a personal character world
 - Gain mastery and creation satisfaction
 - Form positive literacy experiences
+- Develop growth qualities through literacy challenges
 
 The product should optimize for continued return and world growth, not maximum practice volume in a single session.
 ---
@@ -164,7 +194,7 @@ Reduce literacy-related emotional conflict.
 
 Build positive literacy experience.
 
-Improve literacy capability through sustained engagement.
+Support growth quality development through sustained engagement.
 ```
 
 ## Parent Value-1: Lower Emotional Conflict
@@ -174,7 +204,25 @@ AA should reduce the need for repeated reminders, pressure, and supervision that
 AA should help the parent see that Yuanyuan can relate to Chinese characters through curiosity and construction, not only through requirement and correction.
 ---
 ## Parent Value-3: Sustained Capability Growth
-AA should support literacy capability improvement through repeated engagement over time, aligned with the Solution Stage focus on long-term participation rate.
+AA should support literacy capability improvement through repeated engagement over time, while treating literacy as the visible training ground rather than the final purpose.
+---
+## Parent Value-4: Growth Quality Development
+AA should help the parent see growth beyond character mastery: Yuanyuan continuing to try, regulate frustration, stay focused, and face difficulty with courage.
+---
+# Parent Success Definition
+Success is not only:
+
+```text
+More characters mastered
+```
+
+Success also means:
+
+```text
+The child continues trying when facing difficulty.
+```
+
+For parents, AA succeeds when literacy learning becomes a path for positive emotional development, persistence, focus, courage, and growth mindset.
 ---
 # Product Boundary
 ## In Scope
@@ -187,8 +235,9 @@ The product identity is bounded by:
 - Character relationship understanding
 - Personal character world building
 - Positive literacy experience formation
+- Growth quality development through character learning
 - Sustained engagement in a home after-school context
-- Parent value through lower emotional conflict and visible capability growth
+- Parent value through lower emotional conflict, positive literacy experience, and growth quality development
 ---
 ## Out Of Scope
 AA is not:
