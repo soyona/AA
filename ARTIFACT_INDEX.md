@@ -108,6 +108,59 @@ Created
 
 ---
 
+### Lifecycle Artifacts
+
+Artifact Name:
+ProblemDefinition_CORE_v1.md
+
+Artifact Type:
+Problem Definition
+
+Artifact Path:
+artifacts/problem/ProblemDefinition_CORE_v1.md
+
+Version:
+v1.1
+
+Status:
+Frozen
+
+---
+
+Artifact Name:
+SolutionDefinition_CORE_v1.md
+
+Artifact Type:
+Solution Definition
+
+Artifact Path:
+artifacts/solution/SolutionDefinition_CORE_v1.md
+
+Version:
+v1.1
+
+Status:
+Frozen
+
+---
+
+Artifact Name:
+ProductRepresentation_CORE_v1.md
+
+Artifact Type:
+Product Representation
+
+Artifact Path:
+artifacts/product/ProductRepresentation_CORE_v1.md
+
+Version:
+v1.1
+
+Status:
+Frozen
+
+---
+
 ## Authority
 
 ARTIFACT_INDEX.md is the Artifact Discovery Authority.

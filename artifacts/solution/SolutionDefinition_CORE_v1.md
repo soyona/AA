@@ -4,9 +4,9 @@
 |--------|--------|
 | Artifact Type | Solution Definition |
 | Project | AA |
-| Version | CORE_v1 |
+| Version | v1.1 |
 | Lifecycle Stage | Solution |
-| Status | Proposed |
+| Status | Frozen |
 | Based On | artifacts/problem/ProblemDefinition_CORE_v1.md |
 ---
 # Solution Vision
@@ -240,7 +240,13 @@ PASS
 ---
 # Acceptance Decision
 Solution Definition Status:
-PASS
+Frozen
+
+Frozen Version:
+v1.1
+
+Frozen At:
+2026-06-15T15:16:08Z
 
 Ready For:
 ProductRepresentation_CORE_v1.md
