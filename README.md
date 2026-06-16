@@ -7,25 +7,41 @@ This repository was initialized with SAPDP.
 Current lifecycle stage:
 
 ```text
-Product Requirement
+MVP Definition
 ```
 
 Next action:
 
 ```text
-Create ProductRequirement_CORE_v1.md
+Create MVPDefinition_CORE_v1.md
 ```
 
 Last frozen artifact:
 
 ```text
-ProductRepresentation_CORE_v1.md
+ProductRequirement_CORE_v1.md
 ```
 
 Frozen version:
 
 ```text
-v1.1
+CORE_v1
 ```
+
+## Product Requirement Stage
+
+Status: FROZEN
+
+Frozen Artifact:
+ProductRequirement_CORE_v1.md
+
+Version:
+CORE_v1
+
+Lifecycle Position:
+Product Requirement → COMPLETED
+
+Next Stage:
+MVP Definition
 
 Do not infer product requirements, target users, solution direction, or MVP scope during Bootstrap.

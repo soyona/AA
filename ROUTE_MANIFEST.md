@@ -60,16 +60,16 @@ ChatGPT owns route consumption.
 
 ```text
 Current:
-Product Representation · Codex · AA
+Product Requirement · Codex · AA
 
 Done:
-ProductRepresentation_CORE_v1.md · v1.1 · Frozen
+ProductRequirement_CORE_v1.md · CORE_v1 · Frozen
 
 Next:
-Product Requirement · ChatGPT · AA Project · CURRENT session
+MVP Definition · ChatGPT · AA Project · CURRENT session
 
 Action:
-Create ProductRequirement_CORE_v1.md
+Create MVPDefinition_CORE_v1.md
 
 Start:
 Load SAPDP from:
@@ -139,8 +139,42 @@ Audit Source:
 Latest commit after freeze
 ```
 
+### Product Requirement
+
+```text
+Artifact:
+artifacts/product/ProductRequirement_CORE_v1.md
+
+Route Role:
+Product Requirement to MVP Definition handoff
+
+Producer:
+Codex
+
+Consumer:
+ChatGPT
+
+Status:
+FROZEN
+
+Version:
+CORE_v1
+
+Lifecycle Position:
+Product Requirement → COMPLETED
+
+Next Stage:
+MVP Definition
+
+Next Action:
+Create MVPDefinition_CORE_v1.md
+
+Audit Source:
+Latest commit after freeze
+```
+
 ---
 
 ## Updated
 
-2026-06-15T15:16:08Z
+2026-06-16T01:47:30Z

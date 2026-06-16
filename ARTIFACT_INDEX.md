@@ -161,6 +161,29 @@ Frozen
 
 ---
 
+Artifact Name:
+ProductRequirement_CORE_v1.md
+
+Artifact Type:
+Product Requirement
+
+Artifact Path:
+artifacts/product/ProductRequirement_CORE_v1.md
+
+Version:
+CORE_v1
+
+Status:
+Frozen
+
+Lifecycle Position:
+Product Requirement → COMPLETED
+
+Next Stage:
+MVP Definition
+
+---
+
 ## Authority
 
 ARTIFACT_INDEX.md is the Artifact Discovery Authority.
