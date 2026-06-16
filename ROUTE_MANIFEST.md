@@ -33,9 +33,9 @@ Artifact Formats
 Authority remains:
 
 ```text
-PROJECT_BOOTSTRAP.md
+PROJECT_STATE.md
 =
-Runtime Authority
+Lifecycle State Authority
 
 ARTIFACT_INDEX.md
 =
@@ -60,23 +60,23 @@ ChatGPT owns route consumption.
 
 ```text
 Current:
-Product Requirement · Codex · AA
+UX Specification · Codex · AA
 
 Done:
-ProductRequirement_CORE_v1.md · CORE_v1 · Frozen
+UXSpecification_CORE_v1.md · CORE_v1 · Frozen
 
 Next:
-MVP Definition · ChatGPT · AA Project · CURRENT session
+Visual Design Specification · ChatGPT · AA Project · CURRENT session
 
 Action:
-Create MVPDefinition_CORE_v1.md
+Create VisualDesignSpecification_CORE_v1.md
 
 Start:
 Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit:
-Latest commit after freeze
+Latest commit after UX Specification freeze
 
 Workspace:
 /Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA
@@ -146,7 +146,7 @@ Artifact:
 artifacts/product/ProductRequirement_CORE_v1.md
 
 Route Role:
-Product Requirement to MVP Definition handoff
+Product Requirement to UX Specification handoff
 
 Producer:
 Codex
@@ -164,17 +164,48 @@ Lifecycle Position:
 Product Requirement → COMPLETED
 
 Next Stage:
-MVP Definition
+UX Specification
 
 Next Action:
-Create MVPDefinition_CORE_v1.md
+Create UXSpecification_CORE_v1.md
 
 Audit Source:
 Latest commit after freeze
+```
+
+### UX Specification
+
+```text
+Artifact:
+artifacts/product/UXSpecification_CORE_v1.md
+
+Route Role:
+UX Specification to Visual Design Specification handoff
+
+Producer:
+Codex
+
+Consumer:
+ChatGPT
+
+Status:
+Frozen
+
+Version:
+CORE_v1
+
+Lifecycle Position:
+UX Specification → COMPLETED
+
+Next Action:
+Create VisualDesignSpecification_CORE_v1.md
+
+Audit Source:
+Latest commit after UX Specification freeze
 ```
 
 ---
 
 ## Updated
 
-2026-06-16T01:47:30Z
+2026-06-16T15:38:38Z

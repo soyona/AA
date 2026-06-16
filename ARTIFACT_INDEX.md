@@ -180,7 +180,30 @@ Lifecycle Position:
 Product Requirement → COMPLETED
 
 Next Stage:
-MVP Definition
+UX Specification
+
+---
+
+Artifact Name:
+UXSpecification_CORE_v1.md
+
+Artifact Type:
+UX Specification
+
+Artifact Path:
+artifacts/product/UXSpecification_CORE_v1.md
+
+Version:
+CORE_v1
+
+Status:
+Frozen
+
+Lifecycle Position:
+UX Specification → COMPLETED
+
+Next Stage:
+Visual Design Specification
 
 ---
 
