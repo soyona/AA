@@ -48,6 +48,32 @@ AA remains a personal Chinese Character World Building Product.
 
 AA is designed to support growth through exploration. Knowledge is the medium, and growth is the final objective.
 ---
+# Requirement Evidence
+This requirement document is based on real user observations from Yuanyuan.
+
+These observations are not decorative examples.
+
+They are accepted as requirement evidence for capability design.
+
+Key evidence includes:
+
+- high self-expectation and mastery motivation
+- resistance to mechanical repetition
+- preference for pattern discovery, sorting, systems, and world-building
+- strong interest in Minecraft, space, vehicles, mechanics, history stories, and Journey to the West
+- spontaneous reasoning around stories, existence conditions, physical systems, and "what if" scenarios
+
+These evidence points justify the following capability requirements:
+
+- Discovery
+- Meaningful Connection
+- Knowledge World Construction
+- Mastery
+- Growth Reflection
+- Parent Insight
+- Story & Human Experience
+- Counterfactual Reasoning
+---
 # Product Objective
 Chinese character learning is not the final objective.
 
@@ -228,6 +254,93 @@ AA must support:
 Counterfactual reasoning must remain age appropriate.
 
 This capability must help Yuanyuan reason about conditions, causes, changes, and possible outcomes without expanding AA into a general-purpose knowledge platform.
+---
+# Representative Capability Scenarios
+These scenarios anchor the capability requirements.
+
+They are not feature definitions.
+
+They are not MVP scope.
+
+## Discovery / Structure
+```text
+木 → 林 → 森
+```
+
+Validates:
+
+- Discovery
+- Meaningful Connection
+- Mastery
+
+## Classification / Hierarchy / Transfer
+```text
+池 → 沟 → 河 → 江 → 海 → 洋
+```
+
+Validates:
+
+- Meaningful Connection
+- Knowledge World Construction
+- Inference
+- Transfer
+- Growth reasoning
+
+## Temporal System
+```text
+秒 → 分 → 时 → 天 → 周 → 月 → 年
+```
+
+Validates:
+
+- Time World
+- ordering
+- scale understanding
+- system construction
+
+## Life Development
+```text
+幼年 → 童年 → 少年 → 青年 → 中年 → 老年
+```
+
+Validates:
+
+- Life World
+- sequence reasoning
+- growth understanding
+
+## Story & Human Experience
+```text
+Journey to the West
+孙悟空
+菩提祖师
+如来佛祖
+长生不老
+与天同寿
+宇宙毁灭
+```
+
+Validates:
+
+- Story & Human Experience
+- character relationship reasoning
+- value reasoning
+- existence-condition reasoning
+
+## Counterfactual Reasoning
+```text
+No air
+No wind
+Bicycle
+Airplane
+```
+
+Validates:
+
+- Counterfactual Reasoning
+- causal reasoning
+- physical-system reasoning
+- mental simulation
 ---
 # Requirement Boundaries
 AA is NOT:

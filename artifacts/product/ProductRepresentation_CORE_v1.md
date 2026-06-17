@@ -44,6 +44,26 @@ Chinese characters are the training ground.
 Growth is the ultimate objective.
 
 AA uses literacy growth as the visible path through which Yuanyuan can practice deeper growth qualities.
+---
+# Requirement Evidence
+AA is designed for Yuanyuan as a real primary user, not an abstract market segment.
+
+The following observations are accepted as product requirement evidence:
+
+- Yuanyuan wants mastery and has high self-expectation.
+- Yuanyuan resists mechanical repetition more than learning itself.
+- Yuanyuan likes Minecraft-style discovery, construction, and world expansion.
+- Yuanyuan likes ordering, classification, patterns, and systems.
+- Yuanyuan is interested in space, vehicles, mechanics, history stories, and Journey to the West.
+- Yuanyuan asks reasoning-oriented questions and often explores "what if" scenarios.
+
+These observations justify AA's product identity:
+
+```text
+Chinese characters and knowledge are the training ground.
+
+Growth is the ultimate objective.
+```
 
 ## Visible Goal
 ```text
@@ -80,6 +100,91 @@ The long-term product vision is to help Yuanyuan:
 - Develop growth qualities through literacy challenges
 
 The product should optimize for continued return and world growth, not maximum practice volume in a single session.
+---
+# Representative User Scenarios
+The following real scenarios are retained as representative design anchors.
+
+They are not exhaustive content requirements.
+
+They exist to preserve product direction before MVP Definition.
+
+## Scenario-1: Character Pattern Discovery
+```text
+木 → 林 → 森
+```
+
+Represents:
+
+- structure relationship
+- pattern discovery
+- "I discovered something" experience
+
+## Scenario-2: Water System Ordering
+```text
+池 → 沟 → 河 → 江 → 海 → 洋
+```
+
+Represents:
+
+- classification
+- hierarchy
+- accumulation reasoning
+- transfer to "small things can become large through accumulation"
+
+## Scenario-3: Time System
+```text
+秒 → 分 → 时 → 天 → 周 → 月 → 年
+```
+
+Represents:
+
+- temporal structure
+- ordering
+- scale understanding
+
+## Scenario-4: Life Stage Ordering
+```text
+幼年 → 童年 → 少年 → 青年 → 中年 → 老年
+```
+
+Represents:
+
+- life development
+- sequence understanding
+- growth over time
+
+## Scenario-5: Story Reasoning
+Yuanyuan is interested in Journey to the West, including questions such as:
+
+```text
+孙悟空长生不老。
+
+菩提祖师与天同寿。
+
+If the universe ends, what happens to "与天同寿"?
+```
+
+Represents:
+
+- story world
+- character relationship reasoning
+- existence-condition reasoning
+- mythological reasoning
+
+## Scenario-6: Counterfactual Physical Reasoning
+Yuanyuan asked:
+
+```text
+如果没有空气、没有风，
+自行车和飞机能跑多快？
+```
+
+Represents:
+
+- counterfactual reasoning
+- causal reasoning
+- condition-change simulation
+- physical intuition
 ---
 # Product Core Loop
 ```text
