@@ -7,19 +7,19 @@ This repository was initialized with SAPDP.
 Current lifecycle stage:
 
 ```text
-MVP Definition
+UX Specification
 ```
 
 Next action:
 
 ```text
-Create MVPDefinition_CORE_v1.md
+Create VisualDesignSpecification_CORE_v1.md
 ```
 
 Last frozen artifact:
 
 ```text
-ProductRequirement_CORE_v1.md
+UXSpecification_CORE_v1.md
 ```
 
 Frozen version:
@@ -28,20 +28,20 @@ Frozen version:
 CORE_v1
 ```
 
-## Product Requirement Stage
+## UX Specification Stage
 
-Status: FROZEN
+Status: COMPLETED
 
 Frozen Artifact:
-ProductRequirement_CORE_v1.md
+UXSpecification_CORE_v1.md
 
 Version:
 CORE_v1
 
 Lifecycle Position:
-Product Requirement → COMPLETED
+UX Specification → COMPLETED
 
 Next Stage:
-MVP Definition
+Visual Design Specification
 
 Do not infer product requirements, target users, solution direction, or MVP scope during Bootstrap.
