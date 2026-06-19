@@ -60,29 +60,29 @@ ChatGPT owns route consumption.
 
 ```text
 Current:
-UX Specification · Codex · AA
+Solution · Codex · AA
 
 Done:
-UXSpecification_CORE_v1.md · CORE_v1 · Frozen
+SolutionDefinition_CORE_v1.md · v1.1 · Completed
 
 Next:
-Visual Design Specification · ChatGPT · AA Project · CURRENT session
+DNA Selection · Human · AA Project · CURRENT session
 
 Action:
-Create VisualDesignSpecification_CORE_v1.md
+Select one Visual DNA and one Product DNA
 
 Start:
 Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit:
-Latest commit after UX Specification freeze
+f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
 
 Workspace:
 /Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA
 
 Result:
-PASS
+BLOCKED: Selected Visual DNA and Selected Product DNA are missing.
 ```
 
 ---
@@ -111,6 +111,41 @@ Audit Source:
 https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
 ```
 
+### Solution
+
+```text
+Artifact:
+artifacts/solution/SolutionDefinition_CORE_v1.md
+
+Route Role:
+Solution to DNA Selection handoff
+
+Producer:
+Codex
+
+Consumer:
+Human
+
+Status:
+COMPLETED
+
+Version:
+v1.1
+
+Next Stage:
+DNA Selection
+
+Next Action:
+Select one Visual DNA and one Product DNA
+
+Audit Source:
+f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
+```
+
+## Historical Artifact Routes
+
+The following artifacts are preserved for history only and are not current runtime authority.
+
 ### Product Representation
 
 ```text
@@ -118,7 +153,7 @@ Artifact:
 artifacts/product/ProductRepresentation_CORE_v1.md
 
 Route Role:
-Product Representation to Product Requirement handoff
+Historical only
 
 Producer:
 Codex
@@ -127,16 +162,10 @@ Consumer:
 ChatGPT
 
 Status:
-Frozen
+NON-AUTHORITATIVE
 
 Version:
 v1.1
-
-Next Action:
-Create ProductRequirement_CORE_v1.md
-
-Audit Source:
-Latest commit after freeze
 ```
 
 ### Product Requirement
@@ -146,7 +175,7 @@ Artifact:
 artifacts/product/ProductRequirement_CORE_v1.md
 
 Route Role:
-Product Requirement to UX Specification handoff
+Historical only
 
 Producer:
 Codex
@@ -155,22 +184,11 @@ Consumer:
 ChatGPT
 
 Status:
-FROZEN
+NON-AUTHORITATIVE
 
 Version:
 CORE_v1
 
-Lifecycle Position:
-Product Requirement → COMPLETED
-
-Next Stage:
-UX Specification
-
-Next Action:
-Create UXSpecification_CORE_v1.md
-
-Audit Source:
-Latest commit after freeze
 ```
 
 ### UX Specification
@@ -180,7 +198,7 @@ Artifact:
 artifacts/product/UXSpecification_CORE_v1.md
 
 Route Role:
-UX Specification to Visual Design Specification handoff
+Historical only
 
 Producer:
 Codex
@@ -189,23 +207,14 @@ Consumer:
 ChatGPT
 
 Status:
-Frozen
+NON-AUTHORITATIVE
 
 Version:
 CORE_v1
-
-Lifecycle Position:
-UX Specification → COMPLETED
-
-Next Action:
-Create VisualDesignSpecification_CORE_v1.md
-
-Audit Source:
-Latest commit after UX Specification freeze
 ```
 
 ---
 
 ## Updated
 
-2026-06-16T15:38:38Z
+2026-06-19T08:10:50Z

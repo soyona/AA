@@ -7,41 +7,52 @@ This repository was initialized with SAPDP.
 Current lifecycle stage:
 
 ```text
-UX Specification
+Solution
 ```
 
 Next action:
 
 ```text
-Create VisualDesignSpecification_CORE_v1.md
+Select one Visual DNA and one Product DNA
 ```
 
-Last frozen artifact:
+Last valid artifact:
 
 ```text
-UXSpecification_CORE_v1.md
+artifacts/solution/SolutionDefinition_CORE_v1.md
 ```
 
-Frozen version:
+Last valid version:
 
 ```text
-CORE_v1
+v1.1
 ```
 
-## UX Specification Stage
+## Solution Stage
 
 Status: COMPLETED
 
-Frozen Artifact:
-UXSpecification_CORE_v1.md
+Last Valid Artifact:
+artifacts/solution/SolutionDefinition_CORE_v1.md
 
 Version:
-CORE_v1
+v1.1
 
 Lifecycle Position:
-UX Specification → COMPLETED
+Solution → COMPLETED
 
 Next Stage:
-Visual Design Specification
+DNA Selection
+
+Blocked Reason:
+Selected Visual DNA and Selected Product DNA are missing.
+
+## Historical Artifacts
+
+The following files are preserved as historical artifacts and are not current runtime authority:
+
+- artifacts/product/ProductRepresentation_CORE_v1.md
+- artifacts/product/ProductRequirement_CORE_v1.md
+- artifacts/product/UXSpecification_CORE_v1.md
 
 Do not infer product requirements, target users, solution direction, or MVP scope during Bootstrap.
