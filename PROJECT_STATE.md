@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-Solution
+DNA Selection
 
 Last Valid Artifact:
-artifacts/solution/SolutionDefinition_CORE_v1.md
+artifacts/dna/DNASelection_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-DNA Selection
+Product Representation
 
 Next Action:
-Select one Visual DNA and one Product DNA
+Regenerate or repair ProductRepresentation_CORE_v1.md using selected DNA
 
 Allowed Transition:
-DNA Selection
+Product Representation
 
 Required Artifacts:
 
@@ -60,24 +60,26 @@ Required Artifacts:
 - docs/protocol/SAPDP_SOURCE_VERSION.md
 - artifacts/problem/ProblemDefinition_CORE_v1.md
 - artifacts/solution/SolutionDefinition_CORE_v1.md
+- artifacts/dna/DNASelection_CORE_v1.md
 
 Required Commits:
 
 - Bootstrap commit
 - Problem Definition freeze commit
 - Solution Definition freeze commit
+- DNA Selection freeze commit
 
 Last Verified Commit:
-f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
+Pending DNA Selection freeze audit
 
 Blocked Reason:
-Selected Visual DNA and Selected Product DNA are missing.
+None
 
 Updated By:
-Codex
+ChatGPT
 
 Updated At:
-2026-06-19T08:10:50Z
+2026-06-22
 
 ---
 
@@ -87,10 +89,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-Product Representation and all downstream stages are historical only until DNA Selection is complete.
+Product Representation and all downstream stages must consume artifacts/dna/DNASelection_CORE_v1.md after DNA Selection is complete.
 
 Next executable action:
 
 ```text
-Select one Visual DNA and one Product DNA
+Regenerate or repair ProductRepresentation_CORE_v1.md using selected DNA
 ```
