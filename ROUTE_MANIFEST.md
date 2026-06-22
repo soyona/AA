@@ -60,29 +60,29 @@ ChatGPT owns route consumption.
 
 ```text
 Current:
-Solution · Codex · AA
+DNA Selection · ChatGPT · AA
 
 Done:
-SolutionDefinition_CORE_v1.md · v1.1 · Completed
+DNASelection_CORE_v1.md · CORE_v1 · Completed
 
 Next:
-DNA Selection · Human · AA Project · CURRENT session
+Product Representation · ChatGPT/Codex · AA
 
 Action:
-Select one Visual DNA and one Product DNA
+Regenerate or repair ProductRepresentation_CORE_v1.md using selected Visual DNA and Product DNA
 
 Start:
 Load SAPDP from:
 https://github.com/soyona/SAPDP
 
 Audit:
-f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
+Pending DNA Selection freeze audit
 
 Workspace:
-/Users/kanglei/Documents/Codex/2026-06-15/initialize-a-new-project-using-sapdp-4/AA
+GitHub repository soyona/AA main
 
 Result:
-BLOCKED: Selected Visual DNA and Selected Product DNA are missing.
+PASS
 ```
 
 ---
@@ -142,6 +142,46 @@ Audit Source:
 f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
 ```
 
+### DNA Selection
+
+```text
+Artifact:
+artifacts/dna/DNASelection_CORE_v1.md
+
+Route Role:
+DNA Selection to Product Representation handoff
+
+Producer:
+ChatGPT
+
+Consumer:
+ChatGPT/Codex
+
+Status:
+COMPLETED
+
+Version:
+CORE_v1
+
+Selected Visual DNA:
+Toca Boca
+
+Selected Product DNA:
+Minecraft
+
+Secondary Reference:
+Animal Crossing
+
+Next Stage:
+Product Representation
+
+Next Action:
+Regenerate or repair ProductRepresentation_CORE_v1.md using selected Visual DNA and Product DNA
+
+Audit Source:
+Pending DNA Selection freeze audit
+```
+
 ## Historical Artifact Routes
 
 The following artifacts are preserved for history only and are not current runtime authority.
@@ -188,7 +228,6 @@ NON-AUTHORITATIVE
 
 Version:
 CORE_v1
-
 ```
 
 ### UX Specification
@@ -217,4 +256,4 @@ CORE_v1
 
 ## Updated
 
-2026-06-19T08:10:50Z
+2026-06-22
