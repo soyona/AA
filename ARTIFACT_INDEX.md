@@ -145,6 +145,29 @@ Frozen
 ---
 
 Artifact Name:
+DNASelection_CORE_v1.md
+
+Artifact Type:
+DNA Selection
+
+Artifact Path:
+artifacts/dna/DNASelection_CORE_v1.md
+
+Version:
+CORE_v1
+
+Status:
+Frozen
+
+Lifecycle Position:
+DNA Selection → COMPLETED
+
+Next Stage:
+Product Representation
+
+---
+
+Artifact Name:
 ProductRepresentation_CORE_v1.md
 
 Artifact Type:
