@@ -177,10 +177,16 @@ Artifact Path:
 artifacts/product/ProductRepresentation_CORE_v1.md
 
 Version:
-v1.1
+v1.2
 
 Status:
 Frozen
+
+Lifecycle Position:
+Product Representation → COMPLETED
+
+Next Stage:
+Product Requirement
 
 ---
 
@@ -200,10 +206,10 @@ Status:
 Frozen
 
 Lifecycle Position:
-Product Requirement → COMPLETED
+Product Requirement → HISTORICAL
 
 Next Stage:
-UX Specification
+Product Requirement Repair
 
 ---
 
@@ -223,10 +229,10 @@ Status:
 Frozen
 
 Lifecycle Position:
-UX Specification → COMPLETED
+UX Specification → HISTORICAL
 
 Next Stage:
-Visual Design Specification
+UX Specification Repair
 
 ---
 
