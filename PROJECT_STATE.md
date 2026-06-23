@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-Visual Design Specification
+MVP Definition
 
 Last Valid Artifact:
-artifacts/product/VisualDesignSpecification_CORE_v1.md
+artifacts/product/MVPDefinition_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-MVP Definition
+Task Package
 
 Next Action:
-Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
+Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
 
 Allowed Transition:
-MVP Definition
+Task Package
 
 Required Artifacts:
 
@@ -65,6 +65,7 @@ Required Artifacts:
 - artifacts/product/ProductRequirement_CORE_v1.md
 - artifacts/product/UXSpecification_CORE_v1.md
 - artifacts/product/VisualDesignSpecification_CORE_v1.md
+- artifacts/product/MVPDefinition_CORE_v1.md
 
 Required Commits:
 
@@ -76,9 +77,10 @@ Required Commits:
 - Product Requirement freeze commit
 - UX Specification freeze commit
 - Visual Design Specification freeze commit
+- MVP Definition freeze commit
 
 Last Verified Commit:
-Pending Visual Design Specification freeze audit
+Pending MVP Definition freeze audit
 
 Blocked Reason:
 None
@@ -97,10 +99,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-MVP Definition must consume artifacts/product/VisualDesignSpecification_CORE_v1.md v1.0 and upstream frozen artifacts after Visual Design Specification is complete.
+Task Package must consume artifacts/product/MVPDefinition_CORE_v1.md v1.0 and upstream frozen artifacts after MVP Definition is complete.
 
 Next executable action:
 
 ```text
-Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
+Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
 ```
