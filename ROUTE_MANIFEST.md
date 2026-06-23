@@ -31,11 +31,11 @@ ChatGPT owns route consumption.
 ## Current Route
 
 ```text
-Current: Visual Design Specification · ChatGPT · AA
-Done: VisualDesignSpecification_CORE_v1.md · v1.0 · Completed
-Next: MVP Definition · ChatGPT/Codex · AA
-Action: Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
-Audit: Pending Visual Design Specification freeze audit
+Current: MVP Definition · ChatGPT · AA
+Done: MVPDefinition_CORE_v1.md · v1.0 · Completed
+Next: Task Package · ChatGPT/Codex · AA
+Action: Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
+Audit: Pending MVP Definition freeze audit
 Workspace: GitHub repository soyona/AA main
 Result: PASS
 ```
@@ -92,15 +92,26 @@ Audit Source: Pending UX Specification freeze audit
 
 ```text
 Artifact: artifacts/product/VisualDesignSpecification_CORE_v1.md
-Route Role: Visual Design Specification to MVP Definition handoff
 Status: COMPLETED
 Version: v1.0
 Selected Visual DNA: Arc
 Selected Product DNA: Minecraft
 Secondary Visual Reference: Toca Boca
 Next Stage: MVP Definition
-Next Action: Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
 Audit Source: Pending Visual Design Specification freeze audit
+```
+
+### MVP Definition
+
+```text
+Artifact: artifacts/product/MVPDefinition_CORE_v1.md
+Route Role: MVP Definition to Task Package handoff
+Status: COMPLETED
+Version: v1.0
+MVP Scope: My Character World + 木→林→森 discovery + Build + Growth View + Parent View
+Next Stage: Task Package
+Next Action: Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
+Audit Source: Pending MVP Definition freeze audit
 ```
 
 ---
