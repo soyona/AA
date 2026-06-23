@@ -1,151 +1,340 @@
 # ProductRequirement_CORE_v1.md
+
 ## Document Information
+
 | Item | Value |
 |--------|--------|
 | Artifact Type | Product Requirement |
 | Project | AA |
-| Version | CORE_v1 |
+| Version | v1.2 |
 | Lifecycle Stage | Product Requirement |
-| Status | Proposed |
-| Based On | ProblemDefinition_CORE_v1.md; SolutionDefinition_CORE_v1.md; ProductRepresentation_CORE_v1.md |
+| Status | Frozen |
+| Based On | artifacts/problem/ProblemDefinition_CORE_v1.md; artifacts/solution/SolutionDefinition_CORE_v1.md; artifacts/dna/DNASelection_CORE_v1.md; artifacts/product/ProductRepresentation_CORE_v1.md |
+| Producer | ChatGPT |
+| Consumer | UX Specification |
+
 ---
-# Purpose
-This document defines what capabilities AA must provide.
 
-This document does not define UI, page structure, technical architecture, database design, implementation details, MVP scope, or task breakdown.
+# 1. Purpose
+
+This artifact defines what AA must provide at the product capability level.
+
+It repairs the earlier Product Requirement after DNA Selection and Product Representation v1.2.
+
+This artifact does not define:
+
+- UI
+- page structure
+- screen design
+- user flows
+- visual design
+- technical architecture
+- database design
+- implementation details
+- MVP scope
+- task breakdown
+
+Those belong to downstream SAPDP stages.
+
 ---
-# Authority
-This document uses only frozen conclusions from:
 
-- ProblemDefinition_CORE_v1.md
-- SolutionDefinition_CORE_v1.md
-- ProductRepresentation_CORE_v1.md
+# 2. Source Authority
 
-This document also uses the frozen Product Requirement Design decisions:
+This Product Requirement consumes only frozen upstream artifacts:
 
-- PR-D-001 Discovery Selection Rules
-- PR-D-002 Knowledge World Structure
-- PR-D-003 Observable Growth Signals
-- PR-D-004 Story & Human Experience World
-- PR-D-005 Counterfactual Reasoning Capability
+- artifacts/problem/ProblemDefinition_CORE_v1.md
+- artifacts/solution/SolutionDefinition_CORE_v1.md
+- artifacts/dna/DNASelection_CORE_v1.md
+- artifacts/product/ProductRepresentation_CORE_v1.md
+
 ---
-# Product Requirement Scope
+
+# 3. Selected DNA Context
+
+Selected Visual DNA:
+
+```text
+Arc
+```
+
+Selected Product DNA:
+
+```text
+Minecraft
+```
+
+Secondary Visual Reference:
+
+```text
+Toca Boca
+```
+
+Secondary Product Reference:
+
+```text
+Animal Crossing
+```
+
+---
+
+# 4. DNA-Derived Requirement Direction
+
+## 4.1 Minecraft Product DNA Contribution
+
+Minecraft Product DNA contributes the product capability direction of:
+
+- discovery-driven engagement
+- construction through meaningful materials
+- user-owned world growth
+- resource-to-capability progression
+- exploration-driven return
+- self-authored goals
+
+AA adapts these into Chinese character learning by treating characters, structures, relationships, and knowledge connections as building materials for a personal character world.
+
+AA must not copy Minecraft mechanics such as combat, survival pressure, resource mining, item crafting, or open-ended game mechanics.
+
+---
+
+## 4.2 Arc Visual DNA Contribution
+
+Arc Visual DNA contributes downstream visual-system direction only.
+
+Product Requirement may preserve that AA needs capabilities compatible with:
+
+- personal workspace/world perception
+- spatial organization
+- calm hierarchy
+- lightweight focus
+- customizable ownership feeling
+
+Product Requirement must not define specific UI layout, component appearance, colors, typography, or motion.
+
+---
+
+## 4.3 Toca Boca Secondary Visual Reference Contribution
+
+Toca Boca may inform child-facing warmth and emotional safety.
+
+It may support requirements that preserve:
+
+- no-failure exploration
+- child-friendly affordance
+- playful emotional tone
+- low-pressure participation
+
+It must not replace Arc as the selected canonical Visual DNA.
+
+---
+
+## 4.4 Animal Crossing Secondary Product Reference Contribution
+
+Animal Crossing may inform low-pressure pacing and gentle long-term return.
+
+It must not override the selected Minecraft-style discovery and construction loop.
+
+---
+
+# 5. Product Requirement Scope
+
 AA is designed for:
 
 ```text
-Primary school children
-
-Approximately 7–12 years old
-```
-
-Current target user:
-
-```text
 Yuanyuan
+first-grade child / early primary school learner
+home after-school context
 ```
 
 AA remains a personal Chinese Character World Building Product.
 
-AA is designed to support growth through exploration. Knowledge is the medium, and growth is the final objective.
----
-# Requirement Evidence
-This requirement document is based on real user observations from Yuanyuan.
+AA is designed to support growth through exploration.
 
-These observations are not decorative examples.
+Chinese characters are the visible training ground.
 
-They are accepted as requirement evidence for capability design.
-
-Key evidence includes:
-
-- high self-expectation and mastery motivation
-- resistance to mechanical repetition
-- preference for pattern discovery, sorting, systems, and world-building
-- strong interest in Minecraft, space, vehicles, mechanics, history stories, and Journey to the West
-- spontaneous reasoning around stories, existence conditions, physical systems, and "what if" scenarios
-
-These evidence points justify the following capability requirements:
-
-- Discovery
-- Meaningful Connection
-- Knowledge World Construction
-- Mastery
-- Growth Reflection
-- Parent Insight
-- Story & Human Experience
-- Counterfactual Reasoning
----
-# Product Objective
-Chinese character learning is not the final objective.
+Knowledge is the medium.
 
 Growth is the final objective.
 
-Knowledge is a medium.
-
-Growth through exploration is the objective.
-
-AA must therefore provide capabilities that help Yuanyuan discover, understand, connect, build, reason, persist, recover from difficulty, and see growth over time.
 ---
-# Core Requirement Principles
-## Principle-1: Growth Before Achievement
-AA must treat growth as more important than achievement.
 
-Achievement may appear through literacy progress, but the product requirement focus is the child's growth qualities: emotional regulation, persistence, focus, courage to face difficulty, and growth mindset.
+# 6. Requirement Evidence
+
+Accepted requirement evidence includes:
+
+- Yuanyuan wants mastery and has high self-expectation.
+- Yuanyuan resists mechanical repetition more than learning itself.
+- Yuanyuan likes discovery, construction, systems, classification, and world expansion.
+- Yuanyuan is interested in space, vehicles, mechanics, history stories, and Journey to the West.
+- Yuanyuan asks reasoning-oriented and what-if questions.
+- Parents need lower supervision burden and lower emotional conflict.
+
+These evidence points justify capabilities centered on:
+
+- discovery
+- meaningful connection
+- personal world construction
+- mastery through understanding
+- growth reflection
+- parent insight
+- story and human experience
+- counterfactual reasoning
+
 ---
-## Principle-2: Discovery Before Drill
+
+# 7. Product Objective
+
+AA must help Yuanyuan:
+
+- discover meaningful Chinese character patterns
+- understand character structures and relationships
+- build a personal knowledge world
+- see visible growth over time
+- return because the world can expand
+- recover from difficulty without losing motivation
+- reduce dependency on parent supervision
+
+AA must optimize for:
+
+```text
+long-term participation and growth
+```
+
+not:
+
+```text
+single-session volume
+exercise count
+streak pressure
+```
+
+---
+
+# 8. Core Requirement Principles
+
+## Principle 1: Growth Before Achievement
+
+AA must treat growth qualities as more important than achievement metrics.
+
+Growth qualities include:
+
+- emotional regulation
+- persistence
+- focus
+- courage to face difficulty
+- growth mindset
+
+---
+
+## Principle 2: Discovery Before Drill
+
 AA must prioritize meaningful discovery over repetitive drill.
 
 The child should encounter patterns and relationships that invite curiosity, understanding, and reasoning.
+
 ---
-## Principle-3: Connection Before Isolation
+
+## Principle 3: Connection Before Isolation
+
 AA must prevent knowledge from remaining isolated.
 
-Knowledge should become connected across structures, categories, hierarchies, time, space, evolution, causality, inference, and transfer.
+Knowledge should become connected across:
+
+- structure
+- categories
+- hierarchy
+- time
+- space
+- story
+- cause
+- condition
+- inference
+- transfer
+
 ---
-## Principle-4: Mastery Before Memorization
-AA must treat mastery as understanding, connection, explanation, classification, and reasoning.
+
+## Principle 4: Construction Before Consumption
+
+AA must allow the child to build a personal sense of ownership over connected knowledge.
+
+Characters and knowledge must function as materials for world construction, not only as content to consume.
+
+---
+
+## Principle 5: Mastery Before Memorization
+
+AA must define mastery as:
+
+- understanding
+- connection
+- explanation
+- classification
+- reasoning
+- transfer
 
 Memorization alone is not mastery.
+
 ---
-## Principle-5: Parent Insight Before Parent Supervision
+
+## Principle 6: Parent Insight Before Parent Supervision
+
 AA must help parents observe growth signals without requiring them to become teachers, examiners, or continuous supervisors.
+
 ---
-# Capability Requirements
+
+## Principle 7: Low-Pressure Return Before Compulsory Check-In
+
+AA must support return behavior through curiosity, ownership, and world growth.
+
+It must not rely on high-pressure streaks, leaderboard pressure, or compulsory check-in loops as primary motivation.
+
+---
+
+# 9. Capability Requirements
+
 ## Capability 1: Discovery
+
 AA must support discovery of meaningful patterns.
 
 Discovery candidates must satisfy:
 
-- age appropriate
+- age appropriateness
 - connection potential
 - reasoning potential
 - real-world transfer potential
 - growth value
+- world-construction potential
 
-Discovery must support the child's experience of finding something meaningful, rather than merely completing assigned practice.
+Discovery must support the child's experience of finding something meaningful rather than merely completing assigned practice.
 
-Discovery must remain aligned with growth through exploration.
 ---
+
 ## Capability 2: Meaningful Connection
+
 AA must support meaningful connections across:
 
-- structure
+- character structure
+- radicals
+- sound
+- meaning
+- word formation
 - classification
 - hierarchy
-- temporal
-- spatial
-- evolution
-- causal
+- temporal order
+- spatial order
+- causal relationships
+- story relationships
 - inference
 - transfer
 
-Knowledge should not remain isolated.
+Connections must help Yuanyuan understand why knowledge items belong together and how they can be used to reason.
 
-Connections must help Yuanyuan understand relationships between knowledge items, explain why items belong together, and transfer understanding from one context to another.
 ---
+
 ## Capability 3: Knowledge World Construction
+
 AA must support construction of personal cognitive worlds.
 
-Current frozen worlds:
+Required product worlds include:
 
 - Character World
 - Language World
@@ -156,46 +345,76 @@ Current frozen worlds:
 - Space World
 - Story & Human Experience World
 
-Knowledge world construction must help Yuanyuan build a personal sense of ownership over connected knowledge.
+Worlds must act as construction spaces for discovery, connection, reasoning, and growth.
 
-The worlds must support discovery, understanding, connection, mastery, and growth. They must not become isolated content categories.
+They must not become isolated content categories.
+
 ---
-## Capability 4: Mastery
-AA must support mastery.
 
-Mastery is not memorization.
+## Capability 4: Resource-to-Capability Progression
 
-Mastery means:
+AA must translate discovery and understanding into increased capability.
 
-- understanding
-- connection
-- explanation
-- classification
-- reasoning
+In AA, the equivalent of resource-to-construction is:
 
-AA must support the child's feeling of becoming more capable through understanding and reasoning, not through repetition volume.
+```text
+character / structure / relationship / story insight
+↓
+new understanding
+↓
+new connection
+↓
+world growth
+↓
+new curiosity
+```
 
-Mastery must protect the child's motivation when difficulty appears.
+The child should feel that each discovery increases what they can understand, connect, or build.
+
 ---
-## Capability 5: Growth Reflection
-AA must support visibility of growth.
 
-Growth should be reflected through:
+## Capability 5: Mastery
+
+AA must support mastery through understanding and reasoning.
+
+Mastery means the child can increasingly:
+
+- recognize characters
+- explain structures
+- connect related items
+- classify examples
+- reason about conditions
+- transfer understanding
+- try again after mistakes
+
+Mastery must protect motivation when difficulty appears.
+
+---
+
+## Capability 6: Growth Reflection
+
+AA must make growth visible.
+
+Growth reflection should include:
 
 - attempts
 - recovery after difficulty
 - exploration
 - persistence
+- focus
 - increasing understanding
+- deeper connections
+- world growth
 
-Growth reflection must make visible that trying again, recovering from frustration, staying focused, and deepening understanding are meaningful progress.
+Growth reflection must not reduce progress to exercise count, score, badges, or streaks.
 
-Growth reflection must not reduce progress to the number of completed exercises.
 ---
-## Capability 6: Parent Insight
-AA must support observation of growth signals.
 
-Primary signals:
+## Capability 7: Parent Insight
+
+AA must help parents observe growth signals.
+
+Primary growth signals include:
 
 - emotional regulation
 - facing difficulty
@@ -204,12 +423,14 @@ Primary signals:
 - active exploration
 - inference ability
 - growth mindset
+- willingness to return
 
-Growth is more important than achievement.
+Parent insight must reduce the need for repeated reminders, constant correction, and heavy supervision.
 
-Parent insight must help parents understand how Yuanyuan is growing through literacy exploration, without requiring heavy supervision or constant correction.
 ---
-## Capability 7: Story & Human Experience
+
+## Capability 8: Story & Human Experience
+
 AA must support meaningful connections through:
 
 - mythology
@@ -226,43 +447,72 @@ AA must support:
 - event relationships
 - value relationships
 - growth relationships
+- existence-condition reasoning
 
-Story and human experience must help knowledge feel meaningful, connected, and emotionally understandable.
+Story and human experience must remain age appropriate and aligned with growth qualities.
 
-This capability must remain age appropriate and aligned with growth qualities.
 ---
-## Capability 8: Counterfactual Reasoning
+
+## Capability 9: Counterfactual Reasoning
+
 AA must support counterfactual reasoning:
 
 ```text
 What if the condition changes?
 ```
 
-Examples:
+Examples include:
 
 - no air
 - no wind
 - changed assumptions
 - changed rules
+- changed scale
 
 AA must support:
 
 - causal reasoning
 - hypothetical reasoning
 - mental simulation
+- condition-change reasoning
 
 Counterfactual reasoning must remain age appropriate.
 
-This capability must help Yuanyuan reason about conditions, causes, changes, and possible outcomes without expanding AA into a general-purpose knowledge platform.
+It must not expand AA into a general-purpose encyclopedia or general STEM platform.
+
 ---
-# Representative Capability Scenarios
-These scenarios anchor the capability requirements.
+
+## Capability 10: Low-Pressure Return
+
+AA must support continued return through:
+
+- new discoveries
+- unfinished curiosity
+- world growth
+- gentle anticipation
+- personal ownership
+- visible accumulated understanding
+
+Return must not depend primarily on:
+
+- streak pressure
+- punishment for absence
+- leaderboard ranking
+- points economy
+- high-pressure scarcity
+
+---
+
+# 10. Representative Capability Scenarios
+
+These scenarios anchor capability requirements.
 
 They are not feature definitions.
 
 They are not MVP scope.
 
-## Discovery / Structure
+## Scenario 1: Discovery / Structure
+
 ```text
 木 → 林 → 森
 ```
@@ -272,8 +522,12 @@ Validates:
 - Discovery
 - Meaningful Connection
 - Mastery
+- Resource-to-Capability Progression
 
-## Classification / Hierarchy / Transfer
+---
+
+## Scenario 2: Classification / Hierarchy / Transfer
+
 ```text
 池 → 沟 → 河 → 江 → 海 → 洋
 ```
@@ -286,7 +540,10 @@ Validates:
 - Transfer
 - Growth reasoning
 
-## Temporal System
+---
+
+## Scenario 3: Temporal System
+
 ```text
 秒 → 分 → 时 → 天 → 周 → 月 → 年
 ```
@@ -298,7 +555,10 @@ Validates:
 - scale understanding
 - system construction
 
-## Life Development
+---
+
+## Scenario 4: Life Development
+
 ```text
 幼年 → 童年 → 少年 → 青年 → 中年 → 老年
 ```
@@ -309,7 +569,10 @@ Validates:
 - sequence reasoning
 - growth understanding
 
-## Story & Human Experience
+---
+
+## Scenario 5: Story & Human Experience
+
 ```text
 Journey to the West
 孙悟空
@@ -327,7 +590,10 @@ Validates:
 - value reasoning
 - existence-condition reasoning
 
-## Counterfactual Reasoning
+---
+
+## Scenario 6: Counterfactual Reasoning
+
 ```text
 No air
 No wind
@@ -341,65 +607,116 @@ Validates:
 - causal reasoning
 - physical-system reasoning
 - mental simulation
+
 ---
-# Requirement Boundaries
-AA is NOT:
+
+# 11. Requirement Boundaries
+
+AA must not become:
 
 - exam preparation software
 - drill-and-practice software
 - worksheet replacement
 - encyclopedic knowledge platform
 - general-purpose education platform
+- entertainment-only sandbox game
+- point-driven reward product
+- leaderboard-driven competition product
 
-AA must remain focused on growth through exploration using knowledge as the medium.
+AA must remain focused on growth through exploration using Chinese characters and connected knowledge as the medium.
+
 ---
-# Non Goals
+
+# 12. Non Goals
+
 This artifact does not define:
 
 - UI
-- Page structure
-- Technical architecture
-- Database design
-- Implementation details
+- page structure
+- user flows
+- visual design
+- technical architecture
+- database design
+- implementation details
 - MVP scope
-- Task breakdown
+- task breakdown
 
-This artifact does not introduce new capabilities beyond the frozen Product Requirement Design decisions.
+This artifact does not introduce implementation-specific requirements.
+
 ---
-# Validation
-## Consistent With ProductRepresentation_CORE_v1.md
+
+# 13. Validation
+
+## Consistent With ProductRepresentation_CORE_v1.md v1.2
+
 PASS
 
-AA remains a personal Chinese Character World Building Product for Yuanyuan. The visible goal remains literacy growth, and the hidden goal remains growth qualities.
+AA remains a personal Chinese Character World Building Product for Yuanyuan. It preserves discovery, understanding, building, growth, and return as the product loop.
+
 ---
-## No Contradiction With Frozen Scope
+
+## Consumes DNASelection_CORE_v1.md
+
 PASS
 
-The requirements preserve the frozen direction: Chinese characters are the training ground, knowledge is a medium, and growth is the ultimate objective.
+The requirements consume Arc as canonical Visual DNA, Minecraft as Product DNA, Toca Boca as Secondary Visual Reference, and Animal Crossing as Secondary Product Reference.
+
 ---
+
 ## No UI Definitions
+
 PASS
 
 This document does not define screens, page structure, interaction layout, visual design, or user flows.
+
 ---
+
 ## No Architecture Definitions
+
 PASS
 
 This document does not define technical architecture, system design, database design, or implementation approach.
+
 ---
+
 ## No MVP Definitions
+
 PASS
 
 This document does not define MVP scope, release scope, delivery phases, or task breakdown.
+
 ---
+
 ## No Implementation Details
+
 PASS
 
 This document defines required product capabilities only. It does not define how to build them.
+
 ---
-# Acceptance Decision
+
+# 14. Acceptance Decision
+
 Product Requirement Status:
-PASS
+
+```text
+Frozen
+```
+
+Frozen Version:
+
+```text
+v1.2
+```
+
+Frozen At:
+
+```text
+2026-06-23
+```
 
 Ready For:
-MVPDefinition_CORE_v1.md
+
+```text
+UXSpecification_CORE_v1.md
+```
