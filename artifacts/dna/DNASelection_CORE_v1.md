@@ -50,7 +50,19 @@ Status: FROZEN
 Source Product: Minecraft
 ```
 
-Selected Visual Direction Source:
+Selected Visual DNA Source:
+
+```text
+Repository: soyona/SAPDP
+Path: library/dna/visual/Arc_Visual_DNA.md
+Artifact Name: Arc_Visual_DNA
+Artifact Type: Visual DNA
+Version: v1.0.0
+Status: FROZEN
+Source Product: Arc
+```
+
+Secondary Visual Reference Source:
 
 ```text
 Repository: soyona/SAPDP
@@ -65,16 +77,14 @@ Source Product: Toca Boca
 Source Boundary Note:
 
 ```text
-No canonical TocaBoca_Visual_DNA.md artifact exists in the current SAPDP DNA library at the time of this freeze.
+Toca Boca is retained as a Secondary Visual Reference / child-facing visual direction only.
 
-Toca Boca is therefore recorded as a Human-approved visual direction and child-facing experience reference, not as a falsely claimed canonical Visual DNA artifact.
+Toca Boca must not replace the selected canonical Visual DNA field.
 
-Downstream Visual Design Specification must either:
-1. consume this Toca Boca source as a visual direction reference, or
-2. replace it with a canonical Visual DNA artifact if one is later added and approved.
+The selected canonical Visual DNA for AA is Arc_Visual_DNA.
 ```
 
-Secondary Reference Source:
+Secondary Product Reference Source:
 
 ```text
 Repository: soyona/SAPDP
@@ -133,13 +143,13 @@ ROUTE_MANIFEST.md
 ## Selected Visual DNA
 
 ```text
-Toca Boca
+Arc
 ```
 
 Selection Type:
 
 ```text
-Human-approved visual direction / child-facing experience reference
+Canonical Visual DNA artifact
 ```
 
 ## Selected Product DNA
@@ -154,7 +164,19 @@ Selection Type:
 Canonical Product DNA artifact
 ```
 
-## Secondary Reference
+## Secondary Visual Reference
+
+```text
+Toca Boca
+```
+
+Selection Type:
+
+```text
+Secondary Visual Reference / child-facing visual direction
+```
+
+## Secondary Product Reference
 
 ```text
 Animal Crossing
@@ -172,19 +194,24 @@ Secondary Product DNA reference for pacing and low-pressure return
 
 ## 4.1 Visual DNA Rationale
 
-AA is a child-facing, low-pressure, exploration-oriented growth product.
+AA is a personal Chinese Character World Building Product for a child user.
 
-The visual direction should prioritize:
+Among the currently available canonical Visual DNA library candidates, Arc_Visual_DNA is selected because it best supports:
 
-- child-friendly interaction
-- emotional safety
-- warmth
-- playful exploration
-- clear affordance
-- low cognitive load
-- non-exam visual framing
+- personal workspace perception
+- spatial organization
+- calm hierarchy
+- soft chrome
+- rounded surfaces
+- lightweight focus
+- customizable workspace feeling
+- modern but quiet product personality
 
-Toca Boca is selected as the visual direction because it best supports a friendly, exploratory, and low-pressure child experience.
+AA needs a visual system that can make a knowledge world feel personal, spatial, calm, and owned.
+
+Arc is therefore selected as the canonical Visual DNA.
+
+Toca Boca remains useful as a child-facing visual reference, but it is not the selected canonical Visual DNA.
 
 AA should not visually behave like an adult productivity system, exam preparation system, worksheet replacement, or dashboard-first management product.
 
@@ -221,9 +248,23 @@ AA should not be optimized primarily around quiz completion, points, badges, lea
 
 ---
 
-## 4.3 Secondary Reference Rationale
+## 4.3 Secondary Visual Reference Rationale
 
-Animal Crossing is retained only as a secondary reference for:
+Toca Boca is retained only as a secondary visual reference for:
+
+- child-facing warmth
+- emotional safety
+- playful exploration
+- non-exam framing
+- low-pressure affordance
+
+Toca Boca must not override the selected Arc Visual DNA.
+
+---
+
+## 4.4 Secondary Product Reference Rationale
+
+Animal Crossing is retained only as a secondary product reference for:
 
 - low-pressure pacing
 - gentle long-term return
@@ -256,18 +297,19 @@ Product DNA must not define:
 
 ---
 
-## 5.2 Visual Direction Boundary
+## 5.2 Visual DNA Boundary
 
-Visual direction may influence:
+Visual DNA may influence:
 
 - visual tone
-- child-facing interaction affordance
-- emotional atmosphere
-- screen feel
-- visual simplicity
-- playfulness
+- spatial layout philosophy
+- visual hierarchy
+- motion language
+- information density
+- rounded surface language
+- workspace personality
 
-Visual direction must not define:
+Visual DNA must not define:
 
 - product loop
 - progression logic
@@ -277,11 +319,19 @@ Visual direction must not define:
 
 ---
 
-## 5.3 Secondary Reference Boundary
+## 5.3 Secondary Visual Reference Boundary
 
-Secondary Reference may influence pacing and emotional tone only.
+Secondary Visual Reference may influence child-facing warmth and emotional tone only.
 
-It must not become an additional Product DNA or Visual DNA.
+It must not become the selected Visual DNA.
+
+---
+
+## 5.4 Secondary Product Reference Boundary
+
+Secondary Product Reference may influence pacing and low-pressure return only.
+
+It must not become an additional Product DNA.
 
 ---
 
@@ -311,7 +361,7 @@ Existing Product Representation, Product Requirement, and UX artifacts are prese
 
 PASS
 
-The selected visual direction, Product DNA, and Secondary Reference are explicitly recorded.
+The selected Visual DNA, Product DNA, Secondary Visual Reference, and Secondary Product Reference are explicitly recorded.
 
 ---
 
@@ -323,11 +373,23 @@ DNA source references and protocol source references are explicitly recorded.
 
 ---
 
-## Canonical Visual DNA Boundary Recorded
+## Canonical Visual DNA Recorded
 
 PASS
 
-This artifact does not falsely claim that a canonical Toca Boca Visual DNA artifact exists.
+The selected Visual DNA is a canonical Visual DNA artifact:
+
+```text
+library/dna/visual/Arc_Visual_DNA.md
+```
+
+---
+
+## Secondary Visual Reference Boundary Recorded
+
+PASS
+
+Toca Boca is retained only as Secondary Visual Reference / child-facing visual direction.
 
 ---
 
@@ -363,10 +425,10 @@ DNA Selection Status:
 Frozen
 ```
 
-Selected Visual Direction:
+Selected Visual DNA:
 
 ```text
-Toca Boca
+Arc
 ```
 
 Selected Product DNA:
@@ -375,7 +437,13 @@ Selected Product DNA:
 Minecraft
 ```
 
-Secondary Reference:
+Secondary Visual Reference:
+
+```text
+Toca Boca
+```
+
+Secondary Product Reference:
 
 ```text
 Animal Crossing
