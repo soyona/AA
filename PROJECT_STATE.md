@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-Product Requirement
+UX Specification
 
 Last Valid Artifact:
-artifacts/product/ProductRequirement_CORE_v1.md
+artifacts/product/UXSpecification_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-UX Specification
+Visual Design Specification
 
 Next Action:
-Regenerate or repair UXSpecification_CORE_v1.md using Product Requirement v1.2 and selected DNA
+Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
 
 Allowed Transition:
-UX Specification
+Visual Design Specification
 
 Required Artifacts:
 
@@ -63,6 +63,7 @@ Required Artifacts:
 - artifacts/dna/DNASelection_CORE_v1.md
 - artifacts/product/ProductRepresentation_CORE_v1.md
 - artifacts/product/ProductRequirement_CORE_v1.md
+- artifacts/product/UXSpecification_CORE_v1.md
 
 Required Commits:
 
@@ -72,9 +73,10 @@ Required Commits:
 - DNA Selection freeze commit
 - Product Representation freeze commit
 - Product Requirement freeze commit
+- UX Specification freeze commit
 
 Last Verified Commit:
-Pending Product Requirement freeze audit
+Pending UX Specification freeze audit
 
 Blocked Reason:
 None
@@ -93,10 +95,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-UX Specification and all downstream stages must consume artifacts/product/ProductRequirement_CORE_v1.md v1.2 after Product Requirement is complete.
+Visual Design Specification must consume artifacts/product/UXSpecification_CORE_v1.md v1.2 and selected Visual DNA after UX Specification is complete.
 
 Next executable action:
 
 ```text
-Regenerate or repair UXSpecification_CORE_v1.md using Product Requirement v1.2 and selected DNA
+Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
 ```
