@@ -31,11 +31,11 @@ ChatGPT owns route consumption.
 ## Current Route
 
 ```text
-Current: MVP Definition · ChatGPT · AA
-Done: MVPDefinition_CORE_v1.md · v1.0 · Completed
-Next: Task Package · ChatGPT/Codex · AA
-Action: Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
-Audit: Pending MVP Definition freeze audit
+Current: Task Package · ChatGPT · AA
+Done: TaskPackage_CORE_v1.md · v1.0 · Completed
+Next: Build · Codex · AA
+Action: Execute TaskPackage_CORE_v1.md in Codex and implement the AA MVP
+Audit: Pending Task Package freeze audit
 Workspace: GitHub repository soyona/AA main
 Result: PASS
 ```
@@ -54,7 +54,6 @@ Selected Visual DNA: Arc
 Selected Product DNA: Minecraft
 Secondary Visual Reference: Toca Boca
 Secondary Product Reference: Animal Crossing
-Next Stage: Product Representation
 Audit Source: DNA Selection Freeze Audit PASS · https://github.com/soyona/AA/commit/c4e627df14882fb1b154f3ad3a41c3fd5df17db5
 ```
 
@@ -64,7 +63,6 @@ Audit Source: DNA Selection Freeze Audit PASS · https://github.com/soyona/AA/co
 Artifact: artifacts/product/ProductRepresentation_CORE_v1.md
 Status: COMPLETED
 Version: v1.2
-Next Stage: Product Requirement
 Audit Source: Pending Product Representation freeze audit
 ```
 
@@ -74,7 +72,6 @@ Audit Source: Pending Product Representation freeze audit
 Artifact: artifacts/product/ProductRequirement_CORE_v1.md
 Status: COMPLETED
 Version: v1.2
-Next Stage: UX Specification
 Audit Source: Pending Product Requirement freeze audit
 ```
 
@@ -84,7 +81,6 @@ Audit Source: Pending Product Requirement freeze audit
 Artifact: artifacts/product/UXSpecification_CORE_v1.md
 Status: COMPLETED
 Version: v1.2
-Next Stage: Visual Design Specification
 Audit Source: Pending UX Specification freeze audit
 ```
 
@@ -94,10 +90,6 @@ Audit Source: Pending UX Specification freeze audit
 Artifact: artifacts/product/VisualDesignSpecification_CORE_v1.md
 Status: COMPLETED
 Version: v1.0
-Selected Visual DNA: Arc
-Selected Product DNA: Minecraft
-Secondary Visual Reference: Toca Boca
-Next Stage: MVP Definition
 Audit Source: Pending Visual Design Specification freeze audit
 ```
 
@@ -105,13 +97,22 @@ Audit Source: Pending Visual Design Specification freeze audit
 
 ```text
 Artifact: artifacts/product/MVPDefinition_CORE_v1.md
-Route Role: MVP Definition to Task Package handoff
 Status: COMPLETED
 Version: v1.0
 MVP Scope: My Character World + 木→林→森 discovery + Build + Growth View + Parent View
-Next Stage: Task Package
-Next Action: Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
 Audit Source: Pending MVP Definition freeze audit
+```
+
+### Task Package
+
+```text
+Artifact: artifacts/tasks/TaskPackage_CORE_v1.md
+Route Role: Task Package to Build handoff
+Status: COMPLETED
+Version: v1.0
+Next Stage: Build
+Next Action: Execute TaskPackage_CORE_v1.md in Codex and implement the AA MVP
+Audit Source: Pending Task Package freeze audit
 ```
 
 ---
