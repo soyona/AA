@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-Product Representation
+Product Requirement
 
 Last Valid Artifact:
-artifacts/product/ProductRepresentation_CORE_v1.md
+artifacts/product/ProductRequirement_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-Product Requirement
+UX Specification
 
 Next Action:
-Regenerate or repair ProductRequirement_CORE_v1.md using Product Representation v1.2 and selected DNA
+Regenerate or repair UXSpecification_CORE_v1.md using Product Requirement v1.2 and selected DNA
 
 Allowed Transition:
-Product Requirement
+UX Specification
 
 Required Artifacts:
 
@@ -62,6 +62,7 @@ Required Artifacts:
 - artifacts/solution/SolutionDefinition_CORE_v1.md
 - artifacts/dna/DNASelection_CORE_v1.md
 - artifacts/product/ProductRepresentation_CORE_v1.md
+- artifacts/product/ProductRequirement_CORE_v1.md
 
 Required Commits:
 
@@ -70,9 +71,10 @@ Required Commits:
 - Solution Definition freeze commit
 - DNA Selection freeze commit
 - Product Representation freeze commit
+- Product Requirement freeze commit
 
 Last Verified Commit:
-Pending Product Representation freeze audit
+Pending Product Requirement freeze audit
 
 Blocked Reason:
 None
@@ -91,10 +93,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-Product Requirement and all downstream stages must consume artifacts/product/ProductRepresentation_CORE_v1.md v1.2 after Product Representation is complete.
+UX Specification and all downstream stages must consume artifacts/product/ProductRequirement_CORE_v1.md v1.2 after Product Requirement is complete.
 
 Next executable action:
 
 ```text
-Regenerate or repair ProductRequirement_CORE_v1.md using Product Representation v1.2 and selected DNA
+Regenerate or repair UXSpecification_CORE_v1.md using Product Requirement v1.2 and selected DNA
 ```
