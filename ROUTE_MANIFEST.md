@@ -163,13 +163,16 @@ COMPLETED
 Version:
 CORE_v1
 
-Selected Visual Direction:
-Toca Boca
+Selected Visual DNA:
+Arc
 
 Selected Product DNA:
 Minecraft
 
-Secondary Reference:
+Secondary Visual Reference:
+Toca Boca
+
+Secondary Product Reference:
 Animal Crossing
 
 Next Stage:
