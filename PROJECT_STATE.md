@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-MVP Definition
+Task Package
 
 Last Valid Artifact:
-artifacts/product/MVPDefinition_CORE_v1.md
+artifacts/tasks/TaskPackage_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-Task Package
+Build
 
 Next Action:
-Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
+Execute TaskPackage_CORE_v1.md in Codex and implement the AA MVP
 
 Allowed Transition:
-Task Package
+Build
 
 Required Artifacts:
 
@@ -66,6 +66,7 @@ Required Artifacts:
 - artifacts/product/UXSpecification_CORE_v1.md
 - artifacts/product/VisualDesignSpecification_CORE_v1.md
 - artifacts/product/MVPDefinition_CORE_v1.md
+- artifacts/tasks/TaskPackage_CORE_v1.md
 
 Required Commits:
 
@@ -78,9 +79,10 @@ Required Commits:
 - UX Specification freeze commit
 - Visual Design Specification freeze commit
 - MVP Definition freeze commit
+- Task Package freeze commit
 
 Last Verified Commit:
-Pending MVP Definition freeze audit
+Pending Task Package freeze audit
 
 Blocked Reason:
 None
@@ -99,10 +101,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-Task Package must consume artifacts/product/MVPDefinition_CORE_v1.md v1.0 and upstream frozen artifacts after MVP Definition is complete.
+Build must consume artifacts/tasks/TaskPackage_CORE_v1.md v1.0 and upstream frozen artifacts after Task Package is complete.
 
 Next executable action:
 
 ```text
-Create or repair TaskPackage_CORE_v1.md using MVP Definition v1.0 and upstream frozen artifacts
+Execute TaskPackage_CORE_v1.md in Codex and implement the AA MVP
 ```
