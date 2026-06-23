@@ -236,6 +236,29 @@ Visual Design Specification
 
 ---
 
+Artifact Name:
+VisualDesignSpecification_CORE_v1.md
+
+Artifact Type:
+Visual Design Specification
+
+Artifact Path:
+artifacts/product/VisualDesignSpecification_CORE_v1.md
+
+Version:
+v1.0
+
+Status:
+Frozen
+
+Lifecycle Position:
+Visual Design Specification → COMPLETED
+
+Next Stage:
+MVP Definition
+
+---
+
 ## Authority
 
 ARTIFACT_INDEX.md is the Artifact Discovery Authority.
