@@ -1,452 +1,787 @@
-# UXSpecification_CORE_v1
+# UXSpecification_CORE_v1.md
 
 ## Document Information
 
-Version: CORE_v1
-
-Status: Frozen
-
-Stage: UX Specification
-
-Owner: ChatGPT
+| Item | Value |
+|--------|--------|
+| Artifact Type | UX Specification |
+| Project | AA |
+| Version | v1.2 |
+| Lifecycle Stage | UX Specification |
+| Status | Frozen |
+| Based On | artifacts/problem/ProblemDefinition_CORE_v1.md; artifacts/solution/SolutionDefinition_CORE_v1.md; artifacts/dna/DNASelection_CORE_v1.md; artifacts/product/ProductRepresentation_CORE_v1.md; artifacts/product/ProductRequirement_CORE_v1.md |
+| Producer | ChatGPT |
+| Consumer | Visual Design Specification |
 
 ---
 
-# 1. Objective
+# 1. Purpose
 
-Define the complete user experience structure for AA.
+This artifact defines the user experience structure for AA after DNA Selection and Product Requirement v1.2.
 
-This artifact defines:
+It defines:
 
-* User roles
-* User journeys
-* Page structure
-* Core interaction flows
-* Motivation mechanisms
-* Progress systems
-* Parent participation mechanisms
+- user roles
+- experience model
+- navigation model
+- page-level structure
+- core interaction flows
+- learning-world flow
+- parent insight flow
+- error recovery flow
+- agency and return model
 
 This artifact does not define:
 
-* Visual style
-* Color system
-* UI components
-* Animations
-* Technical implementation
+- visual style
+- color system
+- typography
+- final UI components
+- animation specification
+- technical architecture
+- database design
+- implementation tasks
+- MVP scope
 
-These are defined in VisualDesignSpecification.
-
----
-
-# 2. Product Goal
-
-Enable children to participate in learning voluntarily through challenge-driven growth mechanisms.
-
-The system should promote:
-
-* Learning completion
-* Learning continuity
-* Growth awareness
-* Parent-child positive feedback
+Those belong to downstream SAPDP stages.
 
 ---
 
-# 3. User Roles
+# 2. Source Authority
 
-## Primary User
+This UX Specification consumes the following frozen artifacts:
 
-Child
+- artifacts/problem/ProblemDefinition_CORE_v1.md
+- artifacts/solution/SolutionDefinition_CORE_v1.md
+- artifacts/dna/DNASelection_CORE_v1.md
+- artifacts/product/ProductRepresentation_CORE_v1.md
+- artifacts/product/ProductRequirement_CORE_v1.md
 
-Age Range:
+Selected Visual DNA:
 
-6–8 years old
+```text
+Arc
+```
 
-Goals:
+Selected Product DNA:
 
-* Complete challenges
-* Gain rewards
-* Unlock achievements
-* Experience progress
+```text
+Minecraft
+```
+
+Secondary Visual Reference:
+
+```text
+Toca Boca
+```
+
+Secondary Product Reference:
+
+```text
+Animal Crossing
+```
 
 ---
 
-## Secondary User
+# 3. UX Objective
 
+AA must make Chinese character learning feel like entering and growing a personal character world.
+
+The UX should support the child in moving through:
+
+```text
+Discover
+↓
+Understand
+↓
+Build
+↓
+Grow
+↓
+Discover Again
+```
+
+The core UX goal is not to drive challenge completion.
+
+The core UX goal is to help the child return to a growing world where character patterns, relationships, and knowledge connections can be discovered and built.
+
+---
+
+# 4. User Roles
+
+## 4.1 Child User
+
+Primary User:
+
+```text
+Yuanyuan
+```
+
+UX needs:
+
+- enter quickly
+- feel safe to explore
+- choose where to go
+- discover patterns
+- understand relationships
+- build a personal world
+- receive immediate guidance
+- recover from mistakes without shame
+- see growth without pressure
+
+---
+
+## 4.2 Parent User
+
+Secondary User:
+
+```text
 Parent
+```
 
-Goals:
+UX needs:
 
-* Understand learning progress
-* Encourage positive behavior
-* Configure growth goals
-* Track long-term development
+- see what the child explored
+- see growth signals
+- understand difficulty and recovery
+- provide positive recognition
+- avoid becoming teacher, examiner, or continuous supervisor
 
 ---
 
-# 4. Core User Journey
+# 5. Experience Model
+
+AA UX is organized as a personal spatial learning world.
+
+The experience should feel like:
 
 ```text
-Open App
-↓
-View Today's Challenge
-↓
-Select Challenge
-↓
-Complete Practice
-↓
-Receive Feedback
-↓
-Receive Rewards
-↓
-View Growth Progress
-↓
-Unlock New Goals
-↓
-Exit
+I enter my character world.
+I discover something.
+I understand why it connects.
+I add it to my world.
+My world grows.
+I want to return.
+```
+
+The experience should not feel like:
+
+```text
+I open a homework app.
+I complete today's task.
+I receive points.
+I maintain a streak.
 ```
 
 ---
 
-# 5. Page Structure
+# 6. Navigation Model
 
-## P1 Home
+AA uses a world-first navigation model.
+
+Primary navigation areas:
+
+- My Character World
+- Explore
+- Build
+- Growth
+- Parent View
+
+Navigation intent:
+
+```text
+World → Discovery → Construction → Growth → Return
+```
+
+---
+
+## 6.1 My Character World
 
 Purpose:
 
-Guide the child directly into action.
+The home space where the child sees the personal world that has grown through discovery and construction.
+
+Must support:
+
+- visible world growth
+- unlocked or discovered areas
+- recent discoveries
+- unfinished curiosities
+- gentle next exploration prompt
+
+Must not center on:
+
+- streaks
+- points
+- leaderboard
+- daily task pressure
+
+---
+
+## 6.2 Explore
+
+Purpose:
+
+The place where the child encounters character patterns, relationships, and knowledge-world prompts.
+
+Must support:
+
+- discovery candidates
+- age-appropriate curiosity prompts
+- structure, sound, meaning, radical, word, story, time, nature, and space connections
+- entry through curiosity rather than assignment
+
+---
+
+## 6.3 Build
+
+Purpose:
+
+The place where discovered understanding becomes part of the child's personal world.
+
+Must support:
+
+- adding discoveries to a world
+- connecting related items
+- placing or grouping knowledge
+- turning understanding into ownership
+
+---
+
+## 6.4 Growth
+
+Purpose:
+
+The place where growth signals are visible.
+
+Must support:
+
+- attempts
+- recovery after difficulty
+- focus
+- persistence
+- increasing understanding
+- new connections
+- world expansion
+
+Must not reduce growth to score, badges, exercise count, or streaks.
+
+---
+
+## 6.5 Parent View
+
+Purpose:
+
+The place where the parent sees growth and participation without supervising every step.
+
+Must support:
+
+- latest discoveries
+- world growth summary
+- difficulty and recovery signals
+- suggested praise topics
+- light review only
+
+---
+
+# 7. Core Child Journey
+
+```text
+Open AA
+↓
+Enter My Character World
+↓
+See what changed or what can grow
+↓
+Choose an exploration path
+↓
+Discover a character pattern or knowledge relationship
+↓
+Receive explanation / hint / prompt
+↓
+Build the discovery into the world
+↓
+See growth signal
+↓
+Leave with unfinished curiosity or next possible discovery
+```
+
+---
+
+# 8. Core Interaction Flow
+
+## 8.1 Discovery Flow
+
+```text
+Enter Explore
+↓
+Choose or receive a discovery prompt
+↓
+Observe pattern / relationship
+↓
+Make a guess or explanation
+↓
+Receive immediate guidance
+↓
+Confirm understanding
+↓
+Move to Build
+```
+
+Example anchor:
+
+```text
+木 → 林 → 森
+```
+
+UX intent:
+
+```text
+I discovered a pattern.
+```
+
+not:
+
+```text
+I answered a quiz question.
+```
+
+---
+
+## 8.2 Build Flow
+
+```text
+Discovery confirmed
+↓
+Add discovery to a world space
+↓
+Connect it with related items
+↓
+World visibly changes
+↓
+Growth signal appears
+↓
+New curiosity appears
+```
+
+UX intent:
+
+```text
+My world grew because I understood something.
+```
+
+---
+
+## 8.3 Mastery Flow
+
+```text
+Encounter difficulty
+↓
+Receive hint or simplification
+↓
+Try again
+↓
+Understand one part
+↓
+Connect it to prior discovery
+↓
+Record recovery and growth
+```
+
+UX must protect the child's mastery motivation.
+
+Failure must be treated as part of exploration, not as punishment.
+
+---
+
+## 8.4 Return Flow
+
+```text
+Return to AA
+↓
+See world continuity
+↓
+See recent growth
+↓
+See a gentle next curiosity
+↓
+Choose whether to explore, build, or review
+```
+
+Return must be driven by curiosity, ownership, and world growth.
+
+Return must not depend on streak pressure.
+
+---
+
+# 9. Page Structure
+
+## P1: My Character World
+
+Purpose:
+
+Primary entry surface for the child.
 
 Displays:
 
-* Today's Challenge
-* Start Button
-* Current Streak
-* Current Level
-* Recent Badge
+- personal world overview
+- discovered worlds or areas
+- recent discoveries
+- visible world growth
+- gentle next curiosity
+- entry points to Explore and Build
 
-Design Principle:
+Primary question answered:
 
-Home page answers one question:
-
-"What should I do today?"
+```text
+What has my world become, and where can I explore next?
+```
 
 ---
 
-## P2 Challenge Center
+## P2: Explore
+
+Purpose:
+
+Discovery entry point.
 
 Displays:
 
-* Learning Challenges
-* Exploration Challenges
-* Growth Challenges
+- discovery prompts
+- pattern cards
+- relationship questions
+- age-appropriate curiosity choices
+- world-based exploration paths
 
-Purpose:
+Primary question answered:
 
-Provide clear challenge selection.
+```text
+What can I discover now?
+```
 
 ---
 
-## P3 Practice Page
+## P3: Discovery Detail
+
+Purpose:
+
+Focused understanding surface.
 
 Displays:
 
-* Question
-* Answer Area
-* Progress Indicator
-* Immediate Feedback
+- one pattern, relationship, or scenario
+- child action area
+- explanation prompt
+- immediate guidance
+- hint path
+- move-to-build action
 
-Purpose:
+Primary question answered:
 
-Support focused learning.
+```text
+What does this mean, and how does it connect?
+```
 
 ---
 
-## P4 Result Page
+## P4: Build Space
+
+Purpose:
+
+Convert understanding into owned world growth.
 
 Displays:
 
-* Completion Result
-* Accuracy
-* Growth Points Earned
-* Stars Earned
-* New Badge Unlocks
+- selected discovery
+- connection options
+- target world or area
+- resulting world change
+- growth signal
 
-Purpose:
+Primary question answered:
 
-Provide accomplishment feedback.
+```text
+Where does this discovery belong in my world?
+```
 
 ---
 
-## P5 Growth Center
+## P5: Growth View
+
+Purpose:
+
+Make growth visible without reducing it to scores.
 
 Displays:
 
-* Current Level
-* Growth Points
-* Learning Streak
-* Achievement History
-* Badge Collection
+- discoveries made
+- connections built
+- difficult moments recovered
+- focus / persistence / try-again signals
+- world growth summary
 
-Purpose:
+Primary question answered:
 
-Make growth visible.
+```text
+How am I growing?
+```
 
 ---
 
-## P6 Parent Center
+## P6: Parent View
+
+Purpose:
+
+Help parent understand and encourage growth.
 
 Displays:
 
-* Daily Completion
-* Weekly Progress
-* Growth Trends
-* Badge History
-* Suggested Praise Topics
+- what the child explored
+- what the child understood
+- what the child built
+- where difficulty appeared
+- how the child recovered
+- suggested praise topics
 
-Purpose:
-
-Support parent participation.
-
----
-
-# 6. Learning Flow
+Primary question answered:
 
 ```text
-Start Challenge
-↓
-Show Question
-↓
-Answer
-↓
-Immediate Feedback
-↓
-Next Question
-↓
-Challenge Complete
-↓
-Result Summary
-↓
-Reward Distribution
+What growth should I notice and encourage?
 ```
 
 ---
 
-# 7. Motivation Loop
+# 10. Required UX Worlds
 
-Core Mechanism:
+The UX must support the following world spaces:
 
-```text
-Goal
-↓
-Challenge
-↓
-Reward
-↓
-Growth
-↓
-New Goal
-```
+- Character World
+- Language World
+- Time World
+- Number World
+- Life World
+- Nature World
+- Space World
+- Story & Human Experience World
 
-Home page must display:
+These are experience spaces, not fixed UI layouts.
 
-* Current Goal
-* Reward Preview
-* Next Goal
-
-Example:
-
-```text
-Learn 5 Characters
-
-Reward:
-20 Growth Points
-1 Star
-```
+Each world must be able to hold discoveries, relationships, and growth signals.
 
 ---
 
-# 8. Daily Challenge System
+# 11. Motivation UX Rules
 
-Challenge Categories:
+Primary motivation UX:
 
-## Learning Challenge
+```text
+Discovery
+```
 
-Examples:
+Secondary motivation UX:
 
-* Learn 5 characters
-* Complete a review exercise
+```text
+Building
+```
 
-## Exploration Challenge
+Third motivation UX:
 
-Examples:
+```text
+Mastery
+```
 
-* Discover a new radical
-* Learn a new word family
+Supporting motivation UX:
 
-## Growth Challenge
+```text
+Low-pressure return
+```
 
-Examples:
+The UX must not center motivation on:
 
-* Organize school bag
-* Read for 10 minutes
+- rewards
+- badges
+- leaderboard
+- points
+- streaks
+- check-in pressure
+- exercise volume
 
-Completion grants Growth Points.
+Progress may be visible, but progress must represent growth and world expansion.
 
 ---
 
-# 9. Reward System
+# 12. Parent UX Rules
 
-Reward Layers:
+Parent UX must be light.
 
-## Immediate Reward
+Parent View must not require the parent to:
 
-* Stars
-* Encouragement Feedback
+- teach every item
+- check every answer
+- correct every mistake
+- configure complex learning plans
+- supervise continuously
 
-## Mid-Term Reward
-
-* Badges
-
-## Long-Term Reward
-
-* Exploration Rewards
-* Special Unlocks
-
-Reward Flow:
+Parent View should help the parent say:
 
 ```text
-Challenge Complete
-↓
-Growth Points
-↓
-Level Progress
-↓
-Badge Unlock
-↓
-Exploration Reward
+I noticed you tried again.
+I noticed you discovered a pattern.
+I noticed your world grew.
+I noticed you stayed focused.
 ```
 
 ---
 
-# 10. Progress System
+# 13. Error Recovery UX
 
-Visible Metrics:
-
-* Current Level
-* Growth Points
-* Current Streak
-* Weekly Completion Rate
-* Progress To Next Level
-
-Purpose:
-
-Maintain visible growth momentum.
-
----
-
-# 11. Parent Feedback Loop
+## 13.1 Wrong Answer / Misunderstanding
 
 ```text
-Child Completes Challenge
+Misunderstanding
 ↓
-Growth Record Generated
+Gentle hint
 ↓
-Parent Reviews Progress
+Simpler prompt
 ↓
-Parent Provides Praise
+Try again
 ↓
-Child Receives Recognition
+Partial understanding acknowledged
+↓
+Continue exploration
 ```
 
-Parent Center must support:
-
-* Daily Review
-* Weekly Review
-* Badge Review
-* Suggested Praise Topics
+The UX must avoid shame, hard failure, and punitive states.
 
 ---
 
-# 12. Failure Recovery Flow
-
-Error Flow:
+## 13.2 Repeated Difficulty
 
 ```text
-Wrong Answer
+Repeated difficulty
 ↓
-Hint
+Reduce complexity
 ↓
-Retry
+Show related known item
 ↓
-Success
+Ask one smaller question
+↓
+Record persistence
+↓
+Allow exit without punishment
 ```
 
-Repeated Failure:
+Repeated difficulty should produce a growth signal if the child persists or recovers.
+
+---
+
+# 14. Child Agency UX
+
+The child should be able to choose:
+
+- which world to explore
+- which discovery path to enter
+- which discovered item to build next
+- when to review growth
+- when to stop a session
+
+The system may recommend, but must not fully control the child's path.
+
+---
+
+# 15. Visual DNA UX Boundary
+
+Arc Visual DNA affects UX structure only at the level of:
+
+- personal workspace/world perception
+- spatial organization
+- calm hierarchy
+- lightweight navigation
+- customizable ownership feeling
+
+Toca Boca affects UX tone only at the level of:
+
+- child-facing warmth
+- emotional safety
+- playful exploration
+- low-pressure affordance
+
+Detailed visual expression belongs to Visual Design Specification.
+
+---
+
+# 16. UX Validation
+
+## Consistent With ProductRequirement_CORE_v1.md v1.2
+
+PASS
+
+The UX supports required capabilities: Discovery, Meaningful Connection, Knowledge World Construction, Resource-to-Capability Progression, Mastery, Growth Reflection, Parent Insight, Story & Human Experience, Counterfactual Reasoning, and Low-Pressure Return.
+
+---
+
+## Consumes Selected DNA
+
+PASS
+
+The UX consumes Minecraft as Product DNA, Arc as Visual DNA, Toca Boca as Secondary Visual Reference, and Animal Crossing as Secondary Product Reference.
+
+---
+
+## Avoids Reward-Centered Drift
+
+PASS
+
+The UX does not center on points, badges, leaderboard, streaks, or check-in pressure.
+
+---
+
+## No Visual Design Definitions
+
+PASS
+
+This artifact does not define colors, typography, final components, illustration style, or animation details.
+
+---
+
+## No Technical Definitions
+
+PASS
+
+This artifact does not define technical implementation, database design, or architecture.
+
+---
+
+## No MVP Scope
+
+PASS
+
+This artifact does not define MVP scope, release scope, delivery phases, or task breakdown.
+
+---
+
+# 17. Acceptance Decision
+
+UX Specification Status:
 
 ```text
-Multiple Errors
-↓
-Simplified Question
-↓
-Encouragement
-↓
-Retry
+Frozen
 ```
 
-The system must avoid direct failure states.
+Frozen Version:
 
----
+```text
+v1.2
+```
 
-# 13. Child Agency Flow
+Frozen At:
 
-Children may choose:
+```text
+2026-06-23
+```
 
-* Challenge Order
-* Reward Direction
-* Badge Route
+Ready For:
 
-The system must not fully control all decisions.
-
-Purpose:
-
-Increase autonomy and intrinsic motivation.
-
----
-
-# 14. Exception Flow
-
-## Exit Mid-Session
-
-Automatically save progress.
-
----
-
-## No Existing Record
-
-Show onboarding challenge.
-
----
-
-## Offline State
-
-Provide limited offline mode.
-
----
-
-# 15. Exit Criteria
-
-This UX Specification is complete when:
-
-* User roles are defined
-* User journeys are defined
-* Page structure is defined
-* Learning flow is defined
-* Motivation loop is defined
-* Reward system is defined
-* Progress system is defined
-* Parent feedback loop is defined
-* Failure recovery is defined
-* Child agency is defined
-
-Result:
-
-UX Specification Complete
+```text
+VisualDesignSpecification_CORE_v1.md
+```
