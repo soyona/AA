@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-DNA Selection
+Product Representation
 
 Last Valid Artifact:
-artifacts/dna/DNASelection_CORE_v1.md
+artifacts/product/ProductRepresentation_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-Product Representation
+Product Requirement
 
 Next Action:
-Regenerate or repair ProductRepresentation_CORE_v1.md using selected DNA
+Regenerate or repair ProductRequirement_CORE_v1.md using Product Representation v1.2 and selected DNA
 
 Allowed Transition:
-Product Representation
+Product Requirement
 
 Required Artifacts:
 
@@ -61,6 +61,7 @@ Required Artifacts:
 - artifacts/problem/ProblemDefinition_CORE_v1.md
 - artifacts/solution/SolutionDefinition_CORE_v1.md
 - artifacts/dna/DNASelection_CORE_v1.md
+- artifacts/product/ProductRepresentation_CORE_v1.md
 
 Required Commits:
 
@@ -68,9 +69,10 @@ Required Commits:
 - Problem Definition freeze commit
 - Solution Definition freeze commit
 - DNA Selection freeze commit
+- Product Representation freeze commit
 
 Last Verified Commit:
-Pending DNA Selection freeze audit
+Pending Product Representation freeze audit
 
 Blocked Reason:
 None
@@ -79,7 +81,7 @@ Updated By:
 ChatGPT
 
 Updated At:
-2026-06-22
+2026-06-23
 
 ---
 
@@ -89,10 +91,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-Product Representation and all downstream stages must consume artifacts/dna/DNASelection_CORE_v1.md after DNA Selection is complete.
+Product Requirement and all downstream stages must consume artifacts/product/ProductRepresentation_CORE_v1.md v1.2 after Product Representation is complete.
 
 Next executable action:
 
 ```text
-Regenerate or repair ProductRepresentation_CORE_v1.md using selected DNA
+Regenerate or repair ProductRequirement_CORE_v1.md using Product Representation v1.2 and selected DNA
 ```
