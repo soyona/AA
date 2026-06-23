@@ -282,6 +282,29 @@ Task Package
 
 ---
 
+Artifact Name:
+TaskPackage_CORE_v1.md
+
+Artifact Type:
+Task Package
+
+Artifact Path:
+artifacts/tasks/TaskPackage_CORE_v1.md
+
+Version:
+v1.0
+
+Status:
+Frozen
+
+Lifecycle Position:
+Task Package → COMPLETED
+
+Next Stage:
+Build
+
+---
+
 ## Authority
 
 ARTIFACT_INDEX.md is the Artifact Discovery Authority.
