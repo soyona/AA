@@ -223,16 +223,16 @@ Artifact Path:
 artifacts/product/UXSpecification_CORE_v1.md
 
 Version:
-CORE_v1
+v1.2
 
 Status:
 Frozen
 
 Lifecycle Position:
-UX Specification → HISTORICAL
+UX Specification → COMPLETED
 
 Next Stage:
-UX Specification Repair
+Visual Design Specification
 
 ---
 
