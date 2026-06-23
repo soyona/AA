@@ -200,16 +200,16 @@ Artifact Path:
 artifacts/product/ProductRequirement_CORE_v1.md
 
 Version:
-CORE_v1
+v1.2
 
 Status:
 Frozen
 
 Lifecycle Position:
-Product Requirement → HISTORICAL
+Product Requirement → COMPLETED
 
 Next Stage:
-Product Requirement Repair
+UX Specification
 
 ---
 
