@@ -259,6 +259,29 @@ MVP Definition
 
 ---
 
+Artifact Name:
+MVPDefinition_CORE_v1.md
+
+Artifact Type:
+MVP Definition
+
+Artifact Path:
+artifacts/product/MVPDefinition_CORE_v1.md
+
+Version:
+v1.0
+
+Status:
+Frozen
+
+Lifecycle Position:
+MVP Definition → COMPLETED
+
+Next Stage:
+Task Package
+
+---
+
 ## Authority
 
 ARTIFACT_INDEX.md is the Artifact Discovery Authority.
