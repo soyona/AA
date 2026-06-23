@@ -31,59 +31,23 @@ ChatGPT owns route consumption.
 ## Current Route
 
 ```text
-Current:
-UX Specification · ChatGPT · AA
-
-Done:
-UXSpecification_CORE_v1.md · v1.2 · Completed
-
-Next:
-Visual Design Specification · ChatGPT/Codex · AA
-
-Action:
-Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
-
-Audit:
-Pending UX Specification freeze audit
-
-Workspace:
-GitHub repository soyona/AA main
-
-Result:
-PASS
+Current: Visual Design Specification · ChatGPT · AA
+Done: VisualDesignSpecification_CORE_v1.md · v1.0 · Completed
+Next: MVP Definition · ChatGPT/Codex · AA
+Action: Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
+Audit: Pending Visual Design Specification freeze audit
+Workspace: GitHub repository soyona/AA main
+Result: PASS
 ```
 
 ---
 
 ## Artifact Routes
 
-### Bootstrap
-
-```text
-Artifact: POST_BOOTSTRAP_ENTRY.md
-Route Role: Bootstrap to Problem handoff
-Producer: Codex
-Consumer: ChatGPT
-Next Action: Create ProblemDefinition_CORE_v1.md
-Audit Source: https://github.com/soyona/AA/commit/6e013391fe1be4935903f024660e52521bcaf45f
-```
-
-### Solution
-
-```text
-Artifact: artifacts/solution/SolutionDefinition_CORE_v1.md
-Route Role: Solution to DNA Selection handoff
-Status: COMPLETED
-Version: v1.1
-Next Stage: DNA Selection
-Audit Source: f836ce8a047b7e711ea866d3ca6e5cdbc6dabb0a
-```
-
 ### DNA Selection
 
 ```text
 Artifact: artifacts/dna/DNASelection_CORE_v1.md
-Route Role: DNA Selection to Product Representation handoff
 Status: COMPLETED
 Version: CORE_v1
 Selected Visual DNA: Arc
@@ -98,11 +62,8 @@ Audit Source: DNA Selection Freeze Audit PASS · https://github.com/soyona/AA/co
 
 ```text
 Artifact: artifacts/product/ProductRepresentation_CORE_v1.md
-Route Role: Product Representation to Product Requirement handoff
 Status: COMPLETED
 Version: v1.2
-Selected Visual DNA: Arc
-Selected Product DNA: Minecraft
 Next Stage: Product Requirement
 Audit Source: Pending Product Representation freeze audit
 ```
@@ -111,11 +72,8 @@ Audit Source: Pending Product Representation freeze audit
 
 ```text
 Artifact: artifacts/product/ProductRequirement_CORE_v1.md
-Route Role: Product Requirement to UX Specification handoff
 Status: COMPLETED
 Version: v1.2
-Selected Visual DNA: Arc
-Selected Product DNA: Minecraft
 Next Stage: UX Specification
 Audit Source: Pending Product Requirement freeze audit
 ```
@@ -124,14 +82,25 @@ Audit Source: Pending Product Requirement freeze audit
 
 ```text
 Artifact: artifacts/product/UXSpecification_CORE_v1.md
-Route Role: UX Specification to Visual Design Specification handoff
 Status: COMPLETED
 Version: v1.2
+Next Stage: Visual Design Specification
+Audit Source: Pending UX Specification freeze audit
+```
+
+### Visual Design Specification
+
+```text
+Artifact: artifacts/product/VisualDesignSpecification_CORE_v1.md
+Route Role: Visual Design Specification to MVP Definition handoff
+Status: COMPLETED
+Version: v1.0
 Selected Visual DNA: Arc
 Selected Product DNA: Minecraft
-Next Stage: Visual Design Specification
-Next Action: Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
-Audit Source: Pending UX Specification freeze audit
+Secondary Visual Reference: Toca Boca
+Next Stage: MVP Definition
+Next Action: Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
+Audit Source: Pending Visual Design Specification freeze audit
 ```
 
 ---
