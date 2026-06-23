@@ -31,22 +31,22 @@ Version Lock:
 true
 
 Current Stage:
-UX Specification
+Visual Design Specification
 
 Last Valid Artifact:
-artifacts/product/UXSpecification_CORE_v1.md
+artifacts/product/VisualDesignSpecification_CORE_v1.md
 
 Stage Status:
 COMPLETED
 
 Next Stage:
-Visual Design Specification
+MVP Definition
 
 Next Action:
-Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
+Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
 
 Allowed Transition:
-Visual Design Specification
+MVP Definition
 
 Required Artifacts:
 
@@ -64,6 +64,7 @@ Required Artifacts:
 - artifacts/product/ProductRepresentation_CORE_v1.md
 - artifacts/product/ProductRequirement_CORE_v1.md
 - artifacts/product/UXSpecification_CORE_v1.md
+- artifacts/product/VisualDesignSpecification_CORE_v1.md
 
 Required Commits:
 
@@ -74,9 +75,10 @@ Required Commits:
 - Product Representation freeze commit
 - Product Requirement freeze commit
 - UX Specification freeze commit
+- Visual Design Specification freeze commit
 
 Last Verified Commit:
-Pending UX Specification freeze audit
+Pending Visual Design Specification freeze audit
 
 Blocked Reason:
 None
@@ -95,10 +97,10 @@ Runtime state, not chat history, determines current stage and next action.
 
 Lifecycle transition requires Runtime State, Route Manifest, and Stage Readiness Gate PASS.
 
-Visual Design Specification must consume artifacts/product/UXSpecification_CORE_v1.md v1.2 and selected Visual DNA after UX Specification is complete.
+MVP Definition must consume artifacts/product/VisualDesignSpecification_CORE_v1.md v1.0 and upstream frozen artifacts after Visual Design Specification is complete.
 
 Next executable action:
 
 ```text
-Create or repair VisualDesignSpecification_CORE_v1.md using UX Specification v1.2 and selected Visual DNA
+Create or repair MVPDefinition_CORE_v1.md using Visual Design Specification v1.0 and upstream frozen artifacts
 ```
